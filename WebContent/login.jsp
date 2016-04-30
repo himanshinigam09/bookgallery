@@ -97,7 +97,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<label>
 						<input placeholder="password" type="password" name="password" required=""/>
 					</label>
-				</div>						
+				</div>	
+				 <div style="color:red">${errorMessage}</div>					
 				<div>
 					<input type="submit" value="Submit" name="B1"/>
 				</div>

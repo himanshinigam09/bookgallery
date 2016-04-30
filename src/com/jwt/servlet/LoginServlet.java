@@ -47,21 +47,19 @@ public class LoginServlet extends HttpServlet {
         	    else{
         	    	try{
         	            if(null != (session.getAttribute("errorMessage"))){
-        	            	session.removeAttribute("errorMessage");
-        	                
+        	                session.removeAttribute("errorMessage");
         	            }else{
         	                session.setAttribute( "errorMessage", "Invalid username or password");
-        	                
         	            }
         	        }catch(Exception er){
         	            er.printStackTrace();
         	        }
         	    	    //important forward it back to the login page again. 
-	        	    	session.removeAttribute("userName");
-	    	    	    session.removeAttribute("password");
+        	    	session.removeAttribute("userName");
+            	    session.removeAttribute("password");
         	    	    RequestDispatcher rd=request.getRequestDispatcher("login.jsp");
         	    	    rd.forward(request,response);
-        	    	    
+        	    	
         	    }
         	}catch(Exception e){
         	    System.out.println("DB related Error");
