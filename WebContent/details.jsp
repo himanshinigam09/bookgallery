@@ -7,12 +7,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>The Fooseshoes Website Template | Details :: w3layouts</title>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,900,700,500' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <script src="js/jquery.min.js" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/thumbnail-slider.css" rel="stylesheet" type="text/css" />
+    <script src="js/thumbnail-slider.js" type="text/javascript"></script>
 <!-- start details -->
 <link rel="stylesheet" type="text/css" href="css/productviewgallery.css" media="all" />
 <script type="text/javascript" src="js/cloud-zoom.1.0.3.min.js"></script>
@@ -39,6 +42,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 		});
 	</script>
+	<!-- slider properties -->
+	
+	
+    <style>
+        body {font: normal 0.9em Arial;color:#222;}
+        header {display:block; font-size:1.2em;margin-bottom:100px;}
+        header a, header span {
+            display: inline-block;
+            padding: 4px 8px;
+            margin-right: 10px;
+            border: 2px solid #000;
+            background: #DDD;
+            color: #000;
+            text-decoration: none;
+            text-align: center;
+            height: 20px;
+        }
+        header span {background:white;}
+        a {color: #1155CC;}
+    </style>
 </head>
 <body>
 <%@include file="nav.jsp" %>
@@ -59,18 +82,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!-- start span1_of_1 -->
 			<div class="left_content">
 			<div class="span1_of_1">
+			
+			<div id="target1">
 				<!-- start product_slider -->
 				<div class="product-view">
 				    <div class="product-essential">
 				        <div class="product-img-box">
-				    <div class="more-views">
-				        <div class="more-views-container">
-				        <img src="images/cp1.png" alt="Women Shorts" title="Women Shorts" />
-				        </div>
-				    </div>
+				    
 				    <div class="product-image"> 
-				        <a class="cs-fancybox-thumbs cloud-zoom" rel="adjustX:30,adjustY:0,position:'right',tint:'#202020',tintOpacity:0.5,smoothMove:2,showTitle:true,titleOpacity:0.5" data-fancybox-group="thumb" href="images/large/cp1.png" title="Women Shorts" alt="Women Shorts">
-				           	
+				        <a class="cs-fancybox-thumbs cloud-zoom" rel="adjustX:30,adjustY:0,position:'right',tint:'#202020',tintOpacity:0.5,smoothMove:2,showTitle:true,titleOpacity:0.5" data-fancybox-group="thumb" href="images/0001-2.jpg" title="Women Shorts" alt="Women Shorts">
+				           	<img src="images/0001-2.jpg" alt="Women Shorts" title="Women Shorts" />
 				        </a>
 				   </div>
 					<script type="text/javascript">
@@ -109,7 +130,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!-- end product_slider -->
 			</div>
 			<!-- start span1_of_1 -->
-			<div class="span1_of_1_des">
+			<!--target 2 -->
+			
+			</div>
 				  <div class="desc1">
 					
     
@@ -141,7 +164,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="clear"></div>
 					</div>
 			   	 </div>
-			   	</div>
+			   	
 			   	<div class="clear"></div>
 			   	<!-- start left content_bottom -->
 			   	
@@ -156,51 +179,48 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			   	</div>
 			   		<!-- start tabs -->
 			   		
-				   	<section class="tabs">
-		            <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked">
-			        <label for="tab-1" class="tab-label-1">overview</label>
-			
-		            <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2">
-			        <label for="tab-2" class="tab-label-2">consumer</label>
-			
-		           
-				    <div class="clear-shadow"></div>
-					
-			        <div class="content">
-				        <div class="content-1">
-				        	<p class="para top"><span>LOREM IPSUM</span> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined </p>
-							<ul>
-								<li>Research</li>
-								<li>Design and Development</li>
-								<li>Porting and Optimization</li>
-								<li>System integration</li>
-								<li>Verification, Validation and Testing</li>
-								<li>Maintenance and Support</li>
-							</ul>
-							<div class="clear"></div>
-						</div>
-				        <div class="content-2">
-							<p class="para"><span>WELCOME </span> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections </p>
-							<ul class="qua_nav">
-								<li>Multimedia Systems</li>
-								<li>Digital media adapters</li>
-								<li>Set top boxes for HDTV and IPTV Player applications on various Operating Systems and Hardware Platforms</li>
-							</ul>
-						</div>
-				        <div class="content-3">
-				        	<p class="para top"><span>LOREM IPSUM</span> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined </p>
-							<ul>
-								<li>Research</li>
-								<li>Design and Development</li>
-								<li>Porting and Optimization</li>
-								<li>System integration</li>
-								<li>Verification, Validation and Testing</li>
-								<li>Maintenance and Support</li>
-							</ul>
-							<div class="clear"></div>
-						</div>
-			        </div>
-			        </section>
+				   	<div style="padding:120px 0;">
+        <div id="thumbnail-slider">
+        <h2 class="style" style="text-align: center">Related Items</h2>
+        <br/><br/>
+            <div class="inner">
+                <ul>
+                    <li>
+                        <a class="thumb" href="images/6.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="images/7.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="images/2.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="images/3.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="images/4.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="images/5.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="images/8.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="images/9.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="images/10.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="images/11.jpg"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--end-->
+   
 		         	<!-- end tabs -->
 			   	</div>
 			   	<!-- end left content_bottom -->

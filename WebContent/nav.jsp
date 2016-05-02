@@ -62,7 +62,7 @@
 					<li><a href="register.jsp">Register</a> </li>	
 					<% } else {
          %>
-            <li><a href="logout.jsp" onclick="return confirm('Are you sure you want to continue?')">Logout</a></li>
+            <li><a href="logout.jsp" onclick="return confirm('Are you sure you want to log out?')">Logout</a></li>
         <% }%>
 										   
 					<div class="clear"></div>
@@ -85,7 +85,7 @@
 			<ul>
 				<li><a href="index.jsp">Home</a></li>
 				<li><a href="about.jsp">about</a></li>
-				<li><a href="index.jsp">pages</a></li>
+				
 				<li><a href="blog.jsp">blog</a></li>
 				<li><a href="contact.jsp">Contact</a></li>
 				
@@ -108,11 +108,11 @@
 		</div>
 		<nav id="menu-left">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="products.html">products</a></li>
-				<li><a href="about.html">about</a></li>
-				<li><a href="index.html">pages</a></li>
-				<li><a href="blog.html">blog</a></li>
+				<li><a href="index.jsp">Home</a></li>
+				<li><a href="products.jsp">products</a></li>
+				<li><a href="about.jsp">about</a></li>
+				<li><a href="index.jsp">pages</a></li>
+				<li><a href="blog.jsp">blog</a></li>
 				<li><a href="contact.html">Contact</a></li>
 				<div class="clear"></div>
 			</ul>
