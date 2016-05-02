@@ -7,6 +7,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 
+<head>
+<script>
+$(function () {
+    $("#link1").on("click", function () {
+        $("#target1").load("details.jsp");
+    });
+    
+});
+</script>
+</head>
 <body>
 <!-- start header -->
 <%
@@ -16,6 +26,7 @@ You are not logged in<br/>
 <a href="login.jsp">Please Login</a>
 <%} 
 %>
+
 
 <%@include file="nav.jsp" %>
 
@@ -41,7 +52,7 @@ You are not logged in<br/>
 	<!-- start grids_of_3 -->
 	<div class="grids_of_3">
 		<div class="grid1_of_3">
-			<a href="details.jsp">
+			<a href="details.jsp" id="link1">
 				<img src="images/cp.jpg" alt="">
 				<h3>C Programming</h3>
 				<span class="price">$145,99</span>
