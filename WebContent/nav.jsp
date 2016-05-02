@@ -62,7 +62,7 @@
 					<li><a href="register.jsp">Register</a> </li>	
 					<% } else {
          %>
-            <li><a href="logout.jsp" onclick="return confirm('Are you sure you want to continue?')">Logout</a></li>
+            <li><a href="logout.jsp" onclick="return confirm('Are you sure you want to log out?')">Logout</a></li>
         <% }%>
 										   
 					<div class="clear"></div>
