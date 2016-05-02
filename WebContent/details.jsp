@@ -82,6 +82,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!-- start span1_of_1 -->
 			<div class="left_content">
 			<div class="span1_of_1">
+			
+			<div id="target1">
 				<!-- start product_slider -->
 				<div class="product-view">
 				    <div class="product-essential">
@@ -128,7 +130,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!-- end product_slider -->
 			</div>
 			<!-- start span1_of_1 -->
+			<!--target 2 -->
 			
+			</div>
 				  <div class="desc1">
 					
     
