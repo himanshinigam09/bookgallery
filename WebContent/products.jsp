@@ -91,11 +91,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				%> 
 			<ul>
 				<li class="active"><a href="index.jsp">Home</a></li>
-				<li><a href="products.jsp">products</a></li>
+				
 				<li><a href="about.jsp">about</a></li>
 				
 				<li><a href="blog.jsp">blog</a></li>
 				<li><a href="contact.jsp">Contact</a></li>
+				<li><a href="products.jsp">products</a></li>
 				<div class="clear"></div>
 			</ul>
 		</div>

@@ -85,7 +85,7 @@
 			<ul>
 				<li><a href="index.jsp">Home</a></li>
 				<li><a href="about.jsp">about</a></li>
-				<li><a href="index.jsp">pages</a></li>
+				
 				<li><a href="blog.jsp">blog</a></li>
 				<li><a href="contact.jsp">Contact</a></li>
 				
