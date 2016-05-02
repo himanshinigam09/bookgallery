@@ -28,7 +28,8 @@ public class LoginServlet extends HttpServlet {
         	try
         	
         	{	response.setContentType("text/html");
-            PrintWriter out = response.getWriter();
+            @SuppressWarnings("unused")
+			PrintWriter out = response.getWriter();
             HttpSession session = request.getSession(true);
         		Connection  con=null;
         		String userName = request.getParameter("userName");
