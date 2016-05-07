@@ -40,12 +40,19 @@
 			});
 		});
 	</script>
+	<style>
+	#fixed_nav {position:fixed;
+	width:100%;
+	margin:auto;
+	z-index:1000;
+}
+	</style>
 </head>
 <body>
 	<!-- start header -->
 
 
-<div class="top_bg">
+<div class="top_bg" id="fixed_nav">
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
@@ -79,7 +86,7 @@
 </div>
 </div>
 <!-- start header_btm -->
-<div class="wrap">
+<div class="wrap" style="padding-top:40px">
 <div class="header_btm">
 		<div class="menu">
 			<ul>

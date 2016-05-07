@@ -32,7 +32,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
 			});
 		});
-	</script>
+		</script>
 <style>
 .img-responsive
     {
@@ -40,11 +40,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     width:220px;
     
     }
+    #fixed_nav {position:fixed;
+	width:100%;
+	margin:auto;
+	z-index:5;
+}
 </style>	
 </head>
 <body>
 <!-- start header -->
-<div class="top_bg">
+<div class="top_bg" id="fixed_nav">
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
@@ -64,7 +69,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href="register.jsp">Register</a> </li>	
 					<% }
 				else {
-					%>
+				%>
 				
 					<li><a href="logout.jsp" onclick="return confirm('Are you sure you want to continue?')" >Logout</a> </li>
 				
@@ -84,7 +89,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 </div>
 <!-- start header_btm -->
-<div class="wrap">
+<div class="wrap" style="padding-top:40px">
 <div class="header_btm">
 		<div class="menu">
 		<%if (session.getAttribute("userName")!=null){
@@ -99,7 +104,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<li><a href="products.jsp">products</a></li>
 				<div class="clear"></div>
 			</ul>
-		</div>
+			</div>
 		<div id="smart_nav">
 			<a class="navicon" href="#menu-left"> </a>
 		</div>
@@ -130,7 +135,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<nav id="menu-left">
 			<ul>
-				<li><a href="index.jsp">Home</a></li>
+			<li><a href="index.jsp">Home</a></li>
 				
 				<li><a href="about.jsp">about</a></li>
 				
@@ -145,6 +150,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<ul>
 			<li><a href="#"><i  class="art"></i><span class="color1">30</span></a></li>
 			<li><a href="#"><i  class="cart"></i><span>0</span></a></li>
+			<% 
+				if (session.getAttribute("userName") != null) {
+		            %>
+			<p>Logged in as <%=session.getAttribute("userName")%></p>
+			<%} %>
 		</ul>
 	</div>
 	<div class="clear"></div>
@@ -165,7 +175,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="wrap">
 <div class="main">
 	<div class="top_main">
-				<div class="clear"></div>
+	<div class="clear"></div>
 	</div>
 	<!-- start grids_of_3 -->
 	
@@ -200,7 +210,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["I Sem"]'>
                 <figure class="portfolio-item">
                     <a href="#">
-                        <img src="images/sem1/intro_to_comp.png" alt="" class="img-responsive">
+                     <img src="images/sem1/intro_to_comp.png" alt="" class="img-responsive">
                     </a>
                 </figure>
             </li>
@@ -235,7 +245,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                       <img src="images/sem 2/physics2.png" alt="" class="img-responsive">
                   </a>
               </figure>
-            </li>
+              </li>
 
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["III Sem"]'>
                 <figure class="portfolio-item">
@@ -270,7 +280,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			 <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IV Sem"]'>
               <figure class="portfolio-item">
                   <a href="#">
-                      <img src="images/sem4/linear_algebra.png" alt="" class="img-responsive">
+                  <img src="images/sem4/linear_algebra.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
@@ -305,7 +315,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VI Sem"]'>
               <figure class="portfolio-item">
                   <a href="#">
-                      <img src="images/sem6/dcc.png" alt="" class="img-responsive">
+                  <img src="images/sem6/dcc.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
@@ -340,7 +350,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
              <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VII Sem"]'>
               <figure class="portfolio-item">
                   <a href="#">
-                      <img src="images/sem7/OS_5th_edi.png" alt="" class="img-responsive">
+                  <img src="images/sem7/OS_5th_edi.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
@@ -375,7 +385,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
              <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VIII Sem"]'>
               <figure class="portfolio-item">
                   <a href="#">
-                      <img src="images/sem8/ADBMS1.png" alt="" class="img-responsive">
+                  <img src="images/sem8/ADBMS1.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
@@ -410,7 +420,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IX Sem"]'>
               <figure class="portfolio-item">
                   <a href="#">
-                      <img src="images/sem9/component_technology.png" alt="" class="img-responsive">
+                  <img src="images/sem9/component_technology.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
@@ -441,7 +451,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                       <img src="images/sem10/parallel_processing2.png" alt="" class="img-responsive">
                   </a>
               </figure>
-            </li>
+              </li>
             <!-- sizer -->
             <li class="col-md-4 col-sm-4 col-xs-6 shuffle_sizer"></li>
 
@@ -454,43 +464,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    
 
     	
-	<!-- start grids_of_2 -->
-	<div class="grids_of_2">
-		<div class="grid1_of_2">
-			<div class="span1_of_2">
-				<h2>free shipping</h2>
-				<p>Lorem Ipsum is simply dummy  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-			</div>
-			<div class="span1_of_2">
-				<h2>testimonials</h2>
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using [...]</p>
-			</div>
-		</div>
-		<div class="grid1_of_2 bg">
-			<h2>blog news</h2>
-			<div class="grid_date">
-				<div class="date1"> 
-					<h4>apr 01</h4>
-				</div>
-				<div class="date_text">
-					<h4><a href="#"> Donec vehicula est ac augue consectetur,</a></h4>
-					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p> 
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="grid_date">
-				<div class="date1"> 
-					<h4>feb 01</h4>
-				</div>
-				<div class="date_text">
-					<h4><a href="#"> The standard chunk of Lorem Ipsum used since ,,</a></h4>
-					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from </p> 
-				</div>
-				<div class="clear"></div>
-			</div>
-		</div>
-		<div class="clear"></div>
-	</div>
+	
 </div>
 </div>
 </div>
@@ -503,7 +477,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     
     <script src="js/custom.js"></script>
      <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.shuffle.min.js"></script>
+     <script src="js/jquery.shuffle.min.js"></script>
     <script type="text/javascript" src="js/jquery.mmenu.js"></script>
 		<script type="text/javascript">
 			//	The menu on the left
@@ -514,3 +488,4 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     
 </body>
 </html>
+			

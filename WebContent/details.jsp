@@ -42,30 +42,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 		});
 	</script>
-	<!-- slider properties -->
+	
+<script type="text/javascript">
+	
+
+</script>
 	
 	
-    <style>
-        body {font: normal 0.9em Arial;color:#222;}
-        header {display:block; font-size:1.2em;margin-bottom:100px;}
-        header a, header span {
-            display: inline-block;
-            padding: 4px 8px;
-            margin-right: 10px;
-            border: 2px solid #000;
-            background: #DDD;
-            color: #000;
-            text-decoration: none;
-            text-align: center;
-            height: 20px;
-        }
-        header span {background:white;}
-        a {color: #1155CC;}
-    </style>
+	
+    
+    
 </head>
 <body>
 <%@include file="nav.jsp" %>
 <!-- start top_bg -->
+
 <div class="top_bg">
 <div class="wrap">
 <div class="main_top">
@@ -81,9 +72,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="single">
 			<!-- start span1_of_1 -->
 			<div class="left_content">
+			
+			<!-- start physics details -->
+			
+			<div id="physics_details">
 			<div class="span1_of_1">
 			
-			<div id="target1">
+			
 				<!-- start product_slider -->
 				<div class="product-view">
 				    <div class="product-essential">
@@ -128,9 +123,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				</div>
 			<!-- end product_slider -->
-			</div>
+			
 			<!-- start span1_of_1 -->
-			<!--target 2 -->
+			
 			
 			</div>
 				  <div class="desc1">
@@ -165,6 +160,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 			   	 </div>
 			   	
+			   	</div>
+			   	 <!-- end physics details -->
+			   	 
+			   	 <!-- start intro_to_comp -->
+			   	 
+			   	
+			   	  <!-- end intro_to_comp details -->
 			   	<div class="clear"></div>
 			   	<!-- start left content_bottom -->
 			   	
@@ -220,7 +222,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
     </div>
     <!--end-->
-   
+   </div>
 		         	<!-- end tabs -->
 			   	</div>
 			   	<!-- end left content_bottom -->
@@ -231,7 +233,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	       </div>	
 	<!-- end content -->
 	</div>
-</div>
+
+
+
 
 
 <%@include file="footer.jsp" %>
