@@ -56,7 +56,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 <%@include file="nav.jsp" %>
 <!-- start top_bg -->
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=686291911511245";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="top_bg">
 <div class="wrap">
 <div class="main_top">
@@ -221,8 +228,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
         </div>
     </div>
+   <h2 class="style" >Post Comment</h2><br/><br/>
+    <div class="fb-comments" data-href="http://localhost:8080/bookgallery/details.jsp" data-numposts="7"></div>
     <!--end-->
    </div>
+	
 		         	<!-- end tabs -->
 			   	</div>
 			   	<!-- end left content_bottom -->
@@ -231,6 +241,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			
           	    <div class="clear"></div>
 	       </div>	
+	       
 	<!-- end content -->
 	</div>
 
