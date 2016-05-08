@@ -1,9 +1,3 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -34,6 +28,88 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- start top_js_button -->
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+$.extend({
+	  getUrlVars: function(){
+	    var vars = [], hash;
+	    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+	    for(var i = 0; i < hashes.length; i++)
+	    {
+	      hash = hashes[i].split('=');
+	      vars.push(hash[0]);
+	      vars[hash[0]] = hash[1];
+	    }
+	    return vars;
+	  },
+	  getUrlVar: function(name){
+	    return $.getUrlVars()[name];
+	  }
+	});
+
+	var id = $.getUrlVar('id');
+	if(id == "physics") {
+		$('.divcontent').hide();
+		$("#physics_details").show();
+	
+	}
+	else if(id == "intro_to_comp") {
+		$('.divcontent').hide();
+		$("#intro_to_comp_details").show();
+		
+	}
+	else if(id == "let_us_see") {
+		$('.divcontent').hide();
+		$("#let_us_see_details").show();
+	}
+	else if(id == "stats1") {
+		$('.divcontent').hide();
+		$("#stats1_details").show();
+	}
+	else if(id == "cpp") {
+		$('.divcontent').hide();
+		$("#cpp_details").show();
+	}
+	else if(id == "physics2") {
+		$('.divcontent').hide();
+		$("#physics2_details").show();
+	}
+	else if(id == "DE") {
+		$('.divcontent').hide();
+		$("#DE_details").show();
+	}
+	else if(id == "data_structure") {
+		$('.divcontent').hide();
+		$("#data_structure_details").show();
+	}
+	else if(id == "dco") {
+		$('.divcontent').hide();
+		$("#dco_details").show();
+	}
+	else if(id == "database_sys") {
+		$('.divcontent').hide();
+		$("#database_sys_details").show();
+	}
+	else if(id == "linear_algebra") {
+		$('.divcontent').hide();
+		$("#linear_algebra_details").show();
+	}
+	else if(id == "modern_database") {
+		$('.divcontent').hide();
+		$("#modern_database_details").show();
+	}
+	else if(id == "unix") {
+		$('.divcontent').hide();
+		$("#unix_details").show();
+	}
+	else if(id == "CG") {
+		$('.divcontent').hide();
+		$("#CG_details").show();
+	}
+	
+	
+});
+</script>
    <script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$(".scroll").click(function(event){		
@@ -42,16 +118,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 		});
 	</script>
-	
-<script type="text/javascript">
-	
-
-</script>
-	
-	
-	
-    
-    
 </head>
 <body>
 <%@include file="nav.jsp" %>
@@ -75,69 +141,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			
 			<!-- start physics details -->
 			
-			<div id="physics_details">
+			<div id="physics_details" class="divcontent">
 			<div class="span1_of_1">
-			
-			
-				<!-- start product_slider -->
+			<!-- start product_slider -->
 				<div class="product-view">
 				    <div class="product-essential">
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				        <a class="cs-fancybox-thumbs cloud-zoom" rel="adjustX:30,adjustY:0,position:'right',tint:'#202020',tintOpacity:0.5,smoothMove:2,showTitle:true,titleOpacity:0.5" data-fancybox-group="thumb" href="images/0001-2.jpg" title="Women Shorts" alt="Women Shorts">
-				           	<img src="images/0001-2.jpg" alt="Women Shorts" title="Women Shorts" />
-				        </a>
-				   </div>
-					<script type="text/javascript">
-						var prodGallery = jQblvg.parseJSON('{"prod_1":{"main":{"orig":"images/cp1.png","main":"images/large/cp1.png","thumb":"images/small/0001-2.jpg","label":""},"gallery":{"item_0":{"orig":"images/cp1.png","main":"images/large/cp1.png","thumb":"images/small/0001-2.jpg","label":""},"item_1":{"orig":"images/0001-1.jpg","main":"images/large/0001-1.jpg","thumb":"images/small/0001-1.jpg","label":""},"item_2":{"orig":"images/0001-5.jpg","main":"images/large/0001-5.jpg","thumb":"images/small/0001-5.jpg","label":""},"item_3":{"orig":"images/0001-3.jpg","main":"images/large/0001-3.jpg","thumb":"images/small/0001-3.jpg","label":""},"item_4":{"orig":"images/0001-4.jpg","main":"images/large/0001-4.jpg","thumb":"images/small/0001-4.jpg","label":""}},"type":"simple","video":false}}'),
-						    gallery_elmnt = jQblvg('.product-img-box'),
-						    galleryObj = new Object(),
-						    gallery_conf = new Object();
-						    gallery_conf.moreviewitem = '<a class="cs-fancybox-thumbs" data-fancybox-group="thumb"  href=""  title="" alt=""><img src="" src_main="" title="" alt="" /></a>';
-						    gallery_conf.animspeed = 200;
-						jQblvg(document).ready(function() {
-						    galleryObj[1] = new prodViewGalleryForm(prodGallery, 'prod_1', gallery_elmnt, gallery_conf, '.product-image', '.more-views', 'http:');
-						        jQblvg('.product-image .cs-fancybox-thumbs').absoluteClick();
-						    jQblvg('.cs-fancybox-thumbs').fancybox({ prevEffect : 'none', 
-						                             nextEffect : 'none',
-						                             closeBtn : true,
-						                             arrows : true,
-						                             nextClick : true, 
-						                             helpers: {
-						                               thumbs : {
-						                                   position: 'bottom'
-						                               }
-						                             }
-						                             });
-						    jQblvg('#wrap').css('z-index', '100');
-						            jQblvg('.more-views-container').elScroll({type: 'vertical', elqty: 4, btn_pos: 'border', scroll_speed: 400 });
-						        
-						});
-						
-						function initGallery(a,b,element) {
-						    galleryObj[a] = new prodViewGalleryForm(prods, b, gallery_elmnt, gallery_conf, '.product-image', '.more-views', '');
-						};
-					</script>
+				           	<img src="images/sem1/large_physics.png" alt="Women Shorts" title="Women Shorts" />
+				    </div>
+					
 				</div>
 				</div>
 				</div>
 			<!-- end product_slider -->
-			
 			<!-- start span1_of_1 -->
-			
-			
 			</div>
 				  <div class="desc1">
-					
-    
-   
-
 					<div class="available">
-						
-						<span><a href="#">login to save in wishlist </a></span>
-						<p>It is a long established fact that a reader will be distracted by the readable contentContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from of a page when looking at its layout.</p>
-					</div><br/>
+						<p>Physics details</p>
+						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
     							Enter Book Name :<input type="text" name="bookId" /><br/>
@@ -164,9 +188,545 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			   	 <!-- end physics details -->
 			   	 
 			   	 <!-- start intro_to_comp -->
-			   	 
+			   	 <div id="intro_to_comp_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				<div class="product-view">
+				    <div class="product-essential">
+				        <div class="product-img-box">
+				    
+				    <div class="product-image"> 
+				           	<img src="images/sem1/large_intro_to_comp.png" alt="Women Shorts" title="Women Shorts" />
+				     </div>
+					
+				</div>
+				</div>
+				</div>
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<p>Intro_to_comp details</p>
+						</div><br/>
+					<div class="btn_form">
+							<form  method="get" action="FileReadPdf">
+    							Enter Book Name :<input type="text" name="bookId" /><br/>
+    							<input type="submit" value="Download" title="" />
+						
+							</form>
+						</div>
+					
+					<div class="share-desc">
+						<div class="share">
+							<h4>Share Product :</h4>
+							<ul class="share_nav">
+								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			   	 </div>
 			   	
-			   	  <!-- end intro_to_comp details -->
+			   	</div>
+			   	<!-- end intro_to_comp details -->
+			   	  
+			   	   <!-- start let_us_see -->
+			   	 <div id="let_us_see_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				<div class="product-view">
+				    <div class="product-essential">
+				        <div class="product-img-box">
+				    
+				    <div class="product-image"> 
+				      <img src="images/sem1/let_us_see.png" alt="Women Shorts" title="Women Shorts" />
+				     </div>
+					</div>
+				</div>
+				</div>
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<p>let us c details</p>
+						</div><br/>
+					<div class="btn_form">
+							<form  method="get" action="FileReadPdf">
+    							Enter Book Name :<input type="text" name="bookId" /><br/>
+    							<input type="submit" value="Download" title="" />
+							</form>
+						</div>
+					
+					<div class="share-desc">
+						<div class="share">
+							<h4>Share Product :</h4>
+							<ul class="share_nav">
+								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			   	 </div>
+			   	</div>
+			   	<!-- end let_us_see details -->
+			   	  
+			   	  <!-- start stats1 -->
+			   	 <div id="stats1_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				<div class="product-view">
+				    <div class="product-essential">
+				        <div class="product-img-box">
+				    
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem1/stats1.png" alt="Women Shorts" title="Women Shorts" />
+				     </div>
+					</div>
+				</div>
+				</div>
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<p>stats1 details</p>
+						</div><br/>
+					<div class="btn_form">
+							<form  method="get" action="FileReadPdf">
+    							Enter Book Name :<input type="text" name="bookId" /><br/>
+    							<input type="submit" value="Download" title="" />
+						
+							</form>
+						</div>
+					
+					<div class="share-desc">
+						<div class="share">
+							<h4>Share Product :</h4>
+							<ul class="share_nav">
+								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			   	 </div>
+			  </div>
+			   	<!-- end stats1 details -->
+			   	  <!-- start c++ -->
+			   	 <div id="cpp_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				<div class="product-view">
+				    <div class="product-essential">
+				        <div class="product-img-box">
+				    
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem2/c++.png" alt="Women Shorts" title="Women Shorts" />
+				    </div>
+					</div>
+				</div>
+				</div>
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<p>c++ details</p>
+						</div><br/>
+					<div class="btn_form">
+							<form  method="get" action="FileReadPdf">
+    							Enter Book Name :<input type="text" name="bookId" /><br/>
+    							<input type="submit" value="Download" title="" />
+						
+							</form>
+						</div>
+					<div class="share-desc">
+						<div class="share">
+							<h4>Share Product :</h4>
+							<ul class="share_nav">
+								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			   	 </div>
+			   	</div>
+			   	<!-- end c++ -->
+			   	
+			   	<!-- start physics2 -->
+			   	 <div id="physics2_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				<div class="product-view">
+				    <div class="product-essential">
+				        <div class="product-img-box">
+				    
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem2/physics2.png" alt="Women Shorts" title="Women Shorts" />
+				    </div>
+					</div>
+				</div>
+				</div>
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<p>c++ details</p>
+						</div><br/>
+					<div class="btn_form">
+							<form  method="get" action="FileReadPdf">
+    							Enter Book Name :<input type="text" name="bookId" /><br/>
+    							<input type="submit" value="Download" title="" />
+						
+							</form>
+						</div>
+					<div class="share-desc">
+						<div class="share">
+							<h4>Share Product :</h4>
+							<ul class="share_nav">
+								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			   	 </div>
+			   	</div>
+			   	<!-- end physics2 -->	
+			   	
+			   	<!-- start DE -->
+			   	 <div id="DE_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				<div class="product-view">
+				    <div class="product-essential">
+				        <div class="product-img-box">
+				    
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem3/DE.jpeg" alt="Women Shorts" title="Women Shorts" />
+				    </div>
+					</div>
+				</div>
+				</div>
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<p>DE details</p>
+						</div><br/>
+					<div class="btn_form">
+							<form  method="get" action="FileReadPdf">
+    							Enter Book Name :<input type="text" name="bookId" /><br/>
+    							<input type="submit" value="Download" title="" />
+						
+							</form>
+						</div>
+					<div class="share-desc">
+						<div class="share">
+							<h4>Share Product :</h4>
+							<ul class="share_nav">
+								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			   	 </div>
+			   	</div>
+			   	<!-- end DE -->
+			   	<!-- start data_structure -->
+			   	 <div id="data_structure_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				<div class="product-view">
+				    <div class="product-essential">
+				        <div class="product-img-box">
+				    
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem3/data_structure.png" alt="Women Shorts" title="Women Shorts" />
+				    </div>
+					</div>
+				</div>
+				</div>
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<p>data_structure details</p>
+						</div><br/>
+					<div class="btn_form">
+							<form  method="get" action="FileReadPdf">
+    							Enter Book Name :<input type="text" name="bookId" /><br/>
+    							<input type="submit" value="Download" title="" />
+						
+							</form>
+						</div>
+					<div class="share-desc">
+						<div class="share">
+							<h4>Share Product :</h4>
+							<ul class="share_nav">
+								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			   	 </div>
+			   	</div>
+			   	<!-- end data_structure -->
+			   	
+			   	<!-- start dco -->
+			   	 <div id="dco_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				<div class="product-view">
+				    <div class="product-essential">
+				        <div class="product-img-box">
+				    
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem4/dco.png" alt="Women Shorts" title="Women Shorts" />
+				    </div>
+					</div>
+				</div>
+				</div>
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<p>dco details</p>
+						</div><br/>
+					<div class="btn_form">
+							<form  method="get" action="FileReadPdf">
+    							Enter Book Name :<input type="text" name="bookId" /><br/>
+    							<input type="submit" value="Download" title="" />
+						
+							</form>
+						</div>
+					<div class="share-desc">
+						<div class="share">
+							<h4>Share Product :</h4>
+							<ul class="share_nav">
+								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			   	 </div>
+			   	</div>
+			   	<!-- end dco -->
+			   	
+			   	<!-- start database_sys -->
+			   	 <div id="database_sys_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				<div class="product-view">
+				    <div class="product-essential">
+				        <div class="product-img-box">
+				    
+				    <div class="product-image"> 
+				      <img src="images/sem4/database_sys.png" alt="Women Shorts" title="Women Shorts" />
+				     </div>
+					</div>
+				</div>
+				</div>
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<p>database_sys details</p>
+						</div><br/>
+					<div class="btn_form">
+							<form  method="get" action="FileReadPdf">
+    							Enter Book Name :<input type="text" name="bookId" /><br/>
+    							<input type="submit" value="Download" title="" />
+							</form>
+						</div>
+					
+					<div class="share-desc">
+						<div class="share">
+							<h4>Share Product :</h4>
+							<ul class="share_nav">
+								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			   	 </div>
+			   	</div>
+			   	<!-- end database_sys details -->
+				   	  
+				   	  <!-- start linear_algebra -->
+			   	 <div id="linear_algebra_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				<div class="product-view">
+				    <div class="product-essential">
+				        <div class="product-img-box">
+				    
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem4/linear_algebra.png" alt="Women Shorts" title="Women Shorts" />
+				    </div>
+					</div>
+				</div>
+				</div>
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<p>linear_algebra details</p>
+						</div><br/>
+					<div class="btn_form">
+							<form  method="get" action="FileReadPdf">
+    							Enter Book Name :<input type="text" name="bookId" /><br/>
+    							<input type="submit" value="Download" title="" />
+						
+							</form>
+						</div>
+					<div class="share-desc">
+						<div class="share">
+							<h4>Share Product :</h4>
+							<ul class="share_nav">
+								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			   	 </div>
+			   	</div>
+			   	<!-- end linear_algebra -->
+			   	
+			   	<!-- start modern_database -->
+			   	 <div id="modern_database_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				<div class="product-view">
+				    <div class="product-essential">
+				        <div class="product-img-box">
+				    
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem4/modern_database.png" alt="Women Shorts" title="Women Shorts" />
+				     </div>
+					</div>
+				</div>
+				</div>
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<p>stats1 details</p>
+						</div><br/>
+					<div class="btn_form">
+							<form  method="get" action="FileReadPdf">
+    							Enter Book Name :<input type="text" name="bookId" /><br/>
+    							<input type="submit" value="Download" title="" />
+						
+							</form>
+						</div>
+					
+					<div class="share-desc">
+						<div class="share">
+							<h4>Share Product :</h4>
+							<ul class="share_nav">
+								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			   	 </div>
+			  </div>
+			   	<!-- end modern_database details -->
+			   	
+			   	<!-- start unix -->
+			   	 <div id="unix_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				<div class="product-view">
+				    <div class="product-essential">
+				        <div class="product-img-box">
+				    
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem4/unix.png" alt="Women Shorts" title="Women Shorts" />
+				     </div>
+					</div>
+				</div>
+				</div>
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<p>unix details</p>
+						</div><br/>
+					<div class="btn_form">
+							<form  method="get" action="FileReadPdf">
+    							Enter Book Name :<input type="text" name="bookId" /><br/>
+    							<input type="submit" value="Download" title="" />
+						
+							</form>
+						</div>
+					
+					<div class="share-desc">
+						<div class="share">
+							<h4>Share Product :</h4>
+							<ul class="share_nav">
+								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			   	 </div>
+			  </div>
+			   	<!-- end unix -->
 			   	<div class="clear"></div>
 			   	<!-- start left content_bottom -->
 			   	
@@ -239,5 +799,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 <%@include file="footer.jsp" %>
+
 </body>
 </html>

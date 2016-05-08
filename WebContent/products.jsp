@@ -45,7 +45,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	margin:auto;
 	z-index:5;
 }
-</style>	
+</style>
+<script type="text/javascript">
+
+</script>
 </head>
 <body>
 <!-- start header -->
@@ -201,7 +204,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["I Sem"]'>
               <figure class="portfolio-item">
-                <a href="#">
+                <a href="details.jsp?id=physics" id="physics">
                   <img src="images/sem1/physics.png"  alt="Item 1" class="img-responsive">
                 </a>
               </figure>
@@ -209,15 +212,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["I Sem"]'>
                 <figure class="portfolio-item">
-                    <a href="#">
-                     <img src="images/sem1/intro_to_comp.png" alt="" class="img-responsive">
+                    <a href="details.jsp?id=intro_to_comp" id="intro_to_comp">
+                        <img src="images/sem1/intro_to_comp.png" alt="" class="img-responsive">
                     </a>
                 </figure>
             </li>
 
            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["I Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp?id=let_us_see" id="let_us_see">
                       <img src="images/sem1/let_us_see.png" alt="" class="img-responsive">
                   </a>
               </figure>
@@ -225,7 +228,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["I Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp?id=stats1" id="stats1">
                       <img src="images/sem1/stats1.png" alt="" class="img-responsive">
                   </a>
               </figure>
@@ -233,23 +236,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["II Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
-                      <img src="images/sem 2/c++.png" alt="" class="img-responsive">
+                  <a href="details.jsp?id=cpp" id="cpp">
+                      <img src="images/sem2/c++.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
 
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["II Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
-                      <img src="images/sem 2/physics2.png" alt="" class="img-responsive">
+                  <a href="details.jsp?id=physics2" id="physics2">
+                      <img src="images/sem2/physics2.png" alt="" class="img-responsive">
                   </a>
               </figure>
-              </li>
+            </li>
 
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["III Sem"]'>
                 <figure class="portfolio-item">
-                    <a href="#">
+                    <a href="details.jsp?id=DE" id="DE">
                         <img src="images/sem3/DE.jpeg" alt="" class="img-responsive">
                     </a>
                 </figure>
@@ -257,7 +260,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
              <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["III Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp?id=data_structure" id="data_structure">
                       <img src="images/sem3/data_structure.png" alt="" class="img-responsive">
                   </a>
               </figure>
@@ -265,199 +268,198 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IV Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp?id=dco" id="dco">
                       <img src="images/sem4/dco.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IV Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp?id=database_sys" id="database_sys">
                       <img src="images/sem4/database_sys.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
 			 <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IV Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
-                  <img src="images/sem4/linear_algebra.png" alt="" class="img-responsive">
+                  <a href="details.jsp?id=linear_algebra" id="linear_algebra">
+                      <img src="images/sem4/linear_algebra.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
 			 <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IV Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp?id=modern_database" id="modern_database">
                       <img src="images/sem4/modern_database.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IV Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp?id=unix" id="unix">
                       <img src="images/sem4/unix.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["V Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp?id=CG" id="CG">
                       <img src="images/sem5/CG.jpeg" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["V Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="sys_pro">
                       <img src="images/sem5/sys_pro.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VI Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
-                  <img src="images/sem6/dcc.png" alt="" class="img-responsive">
+                  <a href="details.jsp" id="dcc">
+                      <img src="images/sem6/dcc.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VI Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="dcc1">
                       <img src="images/sem6/dcc1.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VI Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="java">
                       <img src="images/sem6/java.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VI Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="AE">
                       <img src="images/sem6/AE.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VII Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="computer_architecture">
                       <img src="images/sem7/computer_architecture.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
              <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VII Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
-                  <img src="images/sem7/OS_5th_edi.png" alt="" class="img-responsive">
+                  <a href="details.jsp" id="OS_5th_edi">
+                      <img src="images/sem7/OS_5th_edi.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
              <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VII Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="OS_8th_edi">
                       <img src="images/sem7/OS_8th_edi.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
              <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VII Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="OS_9th_edi">
                       <img src="images/sem7/OS_9th_edi.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VII Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="linear_sys">
                       <img src="images/sem7/linear_sys.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
              <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VIII Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="ADBMS">
                       <img src="images/sem8/ADBMS.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
              <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VIII Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
-                  <img src="images/sem8/ADBMS1.png" alt="" class="img-responsive">
+                  <a href="details.jsp" id="ADBMS1">
+                      <img src="images/sem8/ADBMS1.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VIII Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="Computer_network">
                       <img src="images/sem8/Computer_network.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VIII Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="ADA">
                       <img src="images/sem8/ADA.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VIII Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="ADA2">
                       <img src="images/sem8/ADA2.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IX Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="AI">
                       <img src="images/sem9/AI.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IX Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
-                  <img src="images/sem9/component_technology.png" alt="" class="img-responsive">
+                  <a href="details.jsp" id="component_technology">
+                      <img src="images/sem9/component_technology.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
              <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IX Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="obj_oriented">
                       <img src="images/sem9/obj_oriented.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
              <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["X Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="formal_lang_theory">
                       <img src="images/sem10/formal_lang_theory.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["X Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="parallel_processing">
                       <img src="images/sem10/parallel_processing.png" alt="" class="img-responsive">
                   </a>
               </figure>
             </li>
              <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["X Sem"]'>
               <figure class="portfolio-item">
-                  <a href="#">
+                  <a href="details.jsp" id="parallel_processing2">
                       <img src="images/sem10/parallel_processing2.png" alt="" class="img-responsive">
                   </a>
               </figure>
-              </li>
+            </li>
             <!-- sizer -->
             <li class="col-md-4 col-sm-4 col-xs-6 shuffle_sizer"></li>
 
             
           </ul> <!--end portfolio grid -->
-
 
           </div> <!--end row -->
         </div> <!-- end container-->
