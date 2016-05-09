@@ -234,8 +234,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							
+    							<input type="submit" name="bookId" value="navathe"/>
 						
 							</form>
 						</div>
@@ -281,8 +281,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							
+    							<input type="submit" name="bookId" value="Korth" />
 						
 							</form>
 						</div>
@@ -1796,14 +1796,14 @@ $.extend({
 				   	<div style="padding:120px 0;">
         <div id="thumbnail-slider">
         <h2 class="style" style="text-align: center">Related Items</h2>
-        <br/><br/>
+        
             <div class="inner">
                 <ul>
                     <li>
-                        <a class="thumb" href="images/6.jpg"></a>
+                        <a class="thumb" href="images/sem7/OS_8th_edi.png"></a>
                     </li>
                     <li>
-                        <a class="thumb" href="images/7.jpg"></a>
+                        <a class="thumb" href="images/sem7/OS_9th_edi.png"></a>
                     </li>
                     <li>
                         <a class="thumb" href="images/2.jpg"></a>

@@ -12,7 +12,7 @@
                 <div id="ei-slider" class="ei-slider">
                     <ul class="ei-slider-large">
 						<li>
-                            <img src="images/slider-image1.jpg" alt="image06"/>
+                            <img src="images/sem1/o_reilly.png" alt="image06"/>
                             <div class="ei-title">
                             	<h3 class="btn">$145.99</h3>
                                 <h2>pink shoes <br>	2013 collections</h2>
