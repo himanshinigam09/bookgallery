@@ -29,6 +29,16 @@
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript">
+function display() {
+	var x = document.getElementById("physics").value;
+	var x = document.getElementById("pc software").value;
+	var x = document.getElementById("c").value;
+    var x = document.getElementById("stats1").value;
+    
+}
+
+</script>
+<script type="text/javascript">
 jQuery(document).ready(function($) {
 $.extend({
 	  getUrlVars: function(){
@@ -196,7 +206,7 @@ $.extend({
 <div class="top_bg">
 <div class="wrap">
 <div class="main_top">
-	<h2 class="style">our fooseshoes</h2>
+	<h2 class="style">our books</h2>
 </div>
 </div>
 </div>
@@ -235,8 +245,8 @@ $.extend({
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
     							
-    							<input type="submit" name="bookId" value="navathe"/>
-						
+    							<input type="hidden" name="bookId" value="physics1" id="physics"/>
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					
@@ -282,8 +292,8 @@ $.extend({
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
     							
-    							<input type="submit" name="bookId" value="Korth" />
-						
+    							<input type="hidden" name="bookId" value="pc software" id="pc software" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					
@@ -327,8 +337,9 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							
+    							<input type="hidden" value="c" name="bookId" id="c"/>
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					
@@ -372,9 +383,9 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
-						
+    							
+    							<input   type="hidden" value="stats" name="bookId" id="stats1" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					
