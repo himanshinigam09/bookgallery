@@ -4,6 +4,15 @@
 
 <html>
 
+<head>
+<style>
+.main
+{
+padding: 4px;
+}
+</style>
+</head>
+
 <body>
 <!-- start header -->
 <%@include file="nav.jsp" %>
@@ -21,7 +30,9 @@
 <!-- start main -->
 <div class="main_bg">
 <div class="wrap">
-<div class="main">
+
+<div class="main_1">
+
 	<div class="about">
 			 
 	     		<div class="left_sidebar">
@@ -70,7 +81,7 @@
 	</div>
 </div>
 </div>
-</div>
+
 
 <%@include file="footer.jsp" %>
 </body>

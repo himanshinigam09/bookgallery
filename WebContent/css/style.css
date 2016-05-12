@@ -130,6 +130,30 @@ h4.style{
 	-moz-border-radius: 2px;
 	-o-border-radius: 2px;
 }
+.btn1
+{
+	border: 1px solid #242424;
+	background:#242424;
+	padding: 10px 20px;
+	outline:none;
+	color: #ffffff;
+	font-size: 1em;
+	text-transform: capitalize;
+	-webkit-appearance: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+.btn1:hover
+{
+	background: #57C5A0;
+	border: 1px solid #57c5a0;
+}
 .btn form input[type="button"]:hover,.registration_form input[type="submit"]:hover{
 	background: #57C5A0;
 	border: 1px solid #57c5a0;
