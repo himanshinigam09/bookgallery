@@ -68,7 +68,7 @@
 					<span class="log"> or </span>
 					<li><a href="register.jsp">Register</a> </li>	
 					<% } else {
-         %>
+         %><li><a><%=session.getAttribute("userName")%></a></li>
             <li><a href="logout.jsp" onclick="return confirm('Are you sure you want to log out?')">Logout</a></li>
         <% }%>
 										   
@@ -129,12 +129,6 @@
 		<ul>
 		<li><a href="#"><i  class="art"></i><span class="color1">30</span></a></li>
 			<li><a href="#"><i  class="cart"></i><span>0</span></a></li>
-		
-			<% 
-				if (username != null) {
-		            %>
-			<p>Logged in as <%=session.getAttribute("userName")%></p>
-			<%} %>
 		</ul>
 	</div>
 	<div class="clear"></div>

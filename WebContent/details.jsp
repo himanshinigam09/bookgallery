@@ -1795,7 +1795,7 @@ $.extend({
 			   		
 				   	<div style="padding:120px 0;">
         <div id="thumbnail-slider">
-        <h2 class="style" style="text-align: center">Related Items</h2>
+        <h2 class="style">Related Items</h2>
         
             <div class="inner">
                 <ul>

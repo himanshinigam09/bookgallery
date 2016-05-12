@@ -12,20 +12,8 @@
                 <div id="ei-slider" class="ei-slider">
                     <ul class="ei-slider-large">
 						<li>
-                            <img src="images/sem1/o_reilly.png" alt="image06"/>
-                            <div class="ei-title">
-                            	<h3 class="btn">$145.99</h3>
-                                <h2>pink shoes <br>	2013 collections</h2>
-                                <h3 class="active">It is a long established fact that a reader<br>
-                                	Lorem Ipsum is that it has a more-or-less 
-                                </h3>
-                                <h3>
-                                	<a class="ei_icons" href="details.html"><img src="images/icon_1.png" alt=""></a>
-                                	<a class="ei_icons" href="details.html"><img src="images/icon_2.png" alt=""></a>
-                                	<a class="ei_icons" href="details.html"><img src="images/icon_3.png" alt=""></a>
-                                	<a class="ei_icons" href="details.html"><img src="images/icon_4.png" alt=""></a>
-                                </h3>
-                            </div>
+                            <img src="images/slider-image1.jpg" alt="image06"/>
+                            
                         </li>
                         <li>
                             <img src="images/slider-image2.jpg" alt="image01" />

@@ -73,7 +73,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<% }
 				else {
 				%>
-				
+					<li><a><%=session.getAttribute("userName")%></a></li>
 					<li><a href="logout.jsp" onclick="return confirm('Are you sure you want to continue?')" >Logout</a> </li>
 				
 					<% }%>	
@@ -153,11 +153,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<ul>
 			<li><a href="#"><i  class="art"></i><span class="color1">30</span></a></li>
 			<li><a href="#"><i  class="cart"></i><span>0</span></a></li>
-			<% 
-				if (session.getAttribute("userName") != null) {
-		            %>
-			<p>Logged in as <%=session.getAttribute("userName")%></p>
-			<%} %>
 		</ul>
 	</div>
 	<div class="clear"></div>

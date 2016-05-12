@@ -16,6 +16,7 @@
 	max-width: 1920px;
 	height: 450px;
 	margin: 0 auto;
+	background-color:white;
 }
 .ei-slider-loading{
 	width: 100%;
@@ -31,7 +32,7 @@
 }
 .ei-slider-large{
 	height: 100%;
-	width: 100%;
+	width: 60%;
 	position:relative;
 	overflow: hidden;
 }
