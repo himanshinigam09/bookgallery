@@ -9,6 +9,10 @@
 	background: #2e2e2e;
 	padding-bottom: 8%;
 }
+.slider{
+	background: #2e2e2e;
+	padding-bottom: 8%;
+}
 .ei-slider{
 	font-family: 'Maven Pro', sans-serif;
 	position: relative;
@@ -63,6 +67,7 @@
 	background: #ffffff;
 	line-height: 1.8em;
 }
+
 .ei-title h2{
 	font-family: 'Maven Pro', sans-serif;
 	padding:10px 0 0;
@@ -91,6 +96,7 @@
 	float: left;
 	height: 100%;
 }
+
 .ei-slider-thumbs li.ei-slider-element{
 	top: 0px;
 	left: 0px;
