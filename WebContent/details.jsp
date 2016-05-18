@@ -229,7 +229,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				           	<img src="images/sem1/large_physics.png" alt="Women Shorts" title="Women Shorts" />
+				           	<img src="images/sem1/physics.png" class="img-responsive" alt="" title="" />
 				    </div>
 					
 				</div>
@@ -276,7 +276,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				           	<img src="images/sem1/large_intro_to_comp.png" alt="Women Shorts" title="Women Shorts" />
+				           	<img src="images/sem1/intro_to_comp.png" class="img-responsive" alt="" title="" />
 				     </div>
 					
 				</div>
@@ -323,7 +323,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				      <img src="images/sem1/let_us_see.png" alt="Women Shorts" title="Women Shorts" />
+				      <img src="images/sem1/let_us_see.png" class="img-responsive" alt="" title="" />
 				     </div>
 					</div>
 				</div>
@@ -369,7 +369,7 @@ $.extend({
 				    
 				    <div class="product-image"> 
 				        
-				           	<img src="images/sem1/stats1.png" alt="Women Shorts" title="Women Shorts" />
+				           	<img src="images/sem1/stats1.png" class="img-responsive" alt="" title="" />
 				     </div>
 					</div>
 				</div>
@@ -414,7 +414,7 @@ $.extend({
 				    
 				    <div class="product-image"> 
 				        
-				           	<img src="images/sem2/c++.png" alt="Women Shorts" title="Women Shorts" />
+				           	<img src="images/sem2/c++.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -459,7 +459,7 @@ $.extend({
 				    
 				    <div class="product-image"> 
 				        
-				           	<img src="images/sem2/physics2.png" alt="Women Shorts" title="Women Shorts" />
+				           	<img src="images/sem2/physics2.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -504,7 +504,7 @@ $.extend({
 				    
 				    <div class="product-image"> 
 				        
-				           	<img src="images/sem3/DE.jpeg" alt="Women Shorts" title="Women Shorts" />
+				           	<img src="images/sem3/DE.jpeg" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -548,7 +548,7 @@ $.extend({
 				    
 				    <div class="product-image"> 
 				        
-				           	<img src="images/sem3/data_structure.png" alt="Women Shorts" title="Women Shorts" />
+				           	<img src="images/sem3/data_structure.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -593,7 +593,7 @@ $.extend({
 				    
 				    <div class="product-image"> 
 				        
-				           	<img src="images/sem4/dco.png" alt="Women Shorts" title="Women Shorts" />
+				           	<img src="images/sem4/dco.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -637,7 +637,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				      <img src="images/sem4/database_sys.png" alt="Women Shorts" title="Women Shorts" />
+				      <img src="images/sem4/database_sys.png" class="img-responsive" alt="" title="" />
 				     </div>
 					</div>
 				</div>
@@ -681,7 +681,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem4/linear_algebra.png" alt="Women Shorts" title="Women Shorts" />
+				    	<img src="images/sem4/linear_algebra.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -725,7 +725,7 @@ $.extend({
 				    
 				    <div class="product-image"> 
 				        
-				           	<img src="images/sem4/modern_database.png" alt="Women Shorts" title="Women Shorts" />
+				           	<img src="images/sem4/modern_database.png" class="img-responsive" alt="" title="" />
 				     </div>
 					</div>
 				</div>
@@ -771,7 +771,7 @@ $.extend({
 				    
 				    <div class="product-image"> 
 				        
-				           	<img src="images/sem4/unix.png" alt="Women Shorts" title="Women Shorts" />
+				           	<img src="images/sem4/unix.png" class="img-responsive" alt="" title="" />
 				     </div>
 					</div>
 				</div>
@@ -816,7 +816,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem5/CG.jpeg" alt="Women Shorts" title="Women Shorts" />
+				    	<img src="images/sem5/CG.jpeg" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -859,7 +859,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem5/sys_pro.png" alt="Women Shorts" title="Women Shorts" />
+				    	<img src="images/sem5/sys_pro.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -902,7 +902,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem6/dcc.png" alt="Women Shorts" title="Women Shorts" />
+				    	<img src="images/sem6/dcc.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -945,7 +945,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem6/dcc1.png" alt="Women Shorts" title="Women Shorts" />
+				    	<img src="images/sem6/dcc1.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -988,7 +988,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem6/java.png" alt="Women Shorts" title="Women Shorts" />
+				    	<img src="images/sem6/java.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1031,7 +1031,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem6/AE.png" alt="Women Shorts" title="Women Shorts" />
+				    	<img src="images/sem6/AE.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1074,7 +1074,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem7/computer_architecture.png" alt="Women Shorts" title="Women Shorts" />
+				    	<img src="images/sem7/computer_architecture.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1117,7 +1117,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem7/OS_5th_edi.png" alt="Women Shorts" title="Women Shorts" />
+				    	<img src="images/sem7/OS_5th_edi.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1160,7 +1160,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem7/OS_8th_edi.png" alt="Women Shorts" title="Women Shorts" />
+				    	<img src="images/sem7/OS_8th_edi.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1203,7 +1203,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem7/OS_9th_edi.png" alt="Women Shorts" title="Women Shorts" />
+				    	<img src="images/sem7/OS_9th_edi.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1246,7 +1246,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem7/linear_sys.png" alt="Women Shorts" title="Women Shorts" />
+				    	<img src="images/sem7/linear_sys.png" class="img-responsive" alt="" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1289,7 +1289,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem8/ADBMS.png" alt="ADBMS" title="Women Shorts" />
+				    	<img src="images/sem8/ADBMS.png" class="img-responsive" alt="ADBMS" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1332,7 +1332,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem8/ADBMS1.png" alt="ADBMS1" title="Women Shorts" />
+				    	<img src="images/sem8/ADBMS1.png" class="img-responsive" alt="ADBMS1" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1375,7 +1375,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem8/ADBMS1.png" alt="ADBMS1" title="Women Shorts" />
+				    	<img src="images/sem8/ADBMS1.png" class="img-responsive" alt="ADBMS1" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1418,7 +1418,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem8/Computer_network.png" alt="Computer_network" title="Women Shorts" />
+				    	<img src="images/sem8/Computer_network.png" class="img-responsive" alt="Computer_network" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1461,7 +1461,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem8/ADA.png" alt="ADA" title="Women Shorts" />
+				    	<img src="images/sem8/ADA.png" class="img-responsive" alt="ADA" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1504,7 +1504,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem8/ADA2.png" alt="ADA2" title="Women Shorts" />
+				    	<img src="images/sem8/ADA2.png" class="img-responsive" alt="ADA2" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1546,7 +1546,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem9/AI.png" alt="AI" title="Women Shorts" />
+				    	<img src="images/sem9/AI.png" class="img-responsive" alt="AI" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1588,7 +1588,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem9/component_technology.png" alt="component_technology" title="Women Shorts" />
+				    	<img src="images/sem9/component_technology.png" class="img-responsive" alt="component_technology" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1630,7 +1630,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem9/obj_oriented.png" alt="obj_oriented" title="Women Shorts" />
+				    	<img src="images/sem9/obj_oriented.png" class="img-responsive" alt="obj_oriented" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1672,7 +1672,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem10/formal_lang_theory.png" alt="formal_lang_theory" title="Women Shorts" />
+				    	<img src="images/sem10/formal_lang_theory.png" class="img-responsive" alt="formal_lang_theory" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1714,7 +1714,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem10/parallel_processing.png" alt="parallel_processing" title="Women Shorts" />
+				    	<img src="images/sem10/parallel_processing.png" class="img-responsive" alt="parallel_processing" title="" />
 				    </div>
 					</div>
 				</div>
@@ -1756,7 +1756,7 @@ $.extend({
 				        <div class="product-img-box">
 				    
 				    <div class="product-image"> 
-				    	<img src="images/sem10/parallel_processing2.png" alt="parallel_processing2" title="Women Shorts" />
+				    	<img src="images/sem10/parallel_processing2.png" class="img-responsive" alt="parallel_processing2" title="" />
 				    </div>
 					</div>
 				</div>

@@ -72,31 +72,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 #hvr-grow-shadow:before { bottom: 10px; left: 10px; } 
 #hvr-grow-shadow:hover figcaption { bottom: 0; }
 </style>
-<script type="text/javascript">
-$(document).ready(function(){
-	   
-	   var search = $("#search-criteria");
-	   var items  = $(".portfolio-item");
 
-	   $("#search").on("click", function(e){
-	        
-	        var v = search.val().toLowerCase();
-	       if(v == "") { 
-	           items.show();
-	           return;
-	       }
-	        $.each(items, function(){
-	            var it = $(this);
-	            var lb = it.find("figcaption").text().toLowerCase();
-	            console.log( lb + " --- " + v);
-	            if(lb.indexOf(v) == -1) 
-	                 it.hide();
-	            else 
-	            	{ it.show(); }
-	        });
-	    });        
-	});
-</script>
 </head>
 <body>
 <!-- start header -->
@@ -131,9 +107,9 @@ $(document).ready(function(){
 		</div>	
 		<div class="web_search">
 		 	<form>
-				
 				<input type="text" id="search-criteria">
-    <input type="submit" id="search"> </div>
+				<input type="submit" value=" " id="search" />
+				
 				
 			</form>
 	    </div>						
@@ -154,7 +130,7 @@ $(document).ready(function(){
 				
 				<li><a href="blog.jsp">blog</a></li>
 				<li><a href="contact.jsp">Contact</a></li>
-				<li><a href="products.jsp">products</a></li>
+				<li><a href="products.jsp">books</a></li>
 				<div class="clear"></div>
 			</ul>
 			</div>
@@ -164,7 +140,7 @@ $(document).ready(function(){
 		<nav id="menu-left">
 			<ul>
 				<li><a href="index.jsp">Home</a></li>
-				<li><a href="products.jsp">products</a></li>
+				<li><a href="products.jsp">books</a></li>
 				<li><a href="about.jsp">about</a></li>
 				
 				<li><a href="blog.jsp">blog</a></li>
@@ -553,6 +529,31 @@ $(document).ready(function(){
 				$('nav#menu-left').mmenu();
 			});
 		</script>
+		<script type="text/javascript">
+$(document).ready(function(){
+	   
+	   var search = $("#search-criteria");
+	   var items  = $(".portfolio-item");
+
+	   $("#search").on("click", function(e){
+	        
+	        var v = search.val().toLowerCase();
+	       if(v == "") { 
+	           items.show();
+	           return;
+	       }
+	        $.each(items, function(){
+	            var it = $(this);
+	            var lb = it.find("figcaption").text().toLowerCase();
+	            console.log( lb + " --- " + v);
+	            if(lb.indexOf(v) == -1) 
+	                 it.hide();
+	            else 
+	            	{ it.show(); }
+	        });
+	    });        
+	});
+</script>
     
 </body>
 </html>

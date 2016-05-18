@@ -56,7 +56,7 @@
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			<a href="index.html"><img src="images/logo1.png" alt=""/></a>
 		</div>
 		 <div class="log_reg">
 				<ul>
@@ -100,7 +100,7 @@
 				if (username != null) {
 		            %>
 			
-				<li><a href="products.jsp">products</a></li>
+				<li><a href="products.jsp">books</a></li>
 				
 				
 				<% } %>
@@ -116,9 +116,9 @@
 		<nav id="menu-left">
 			<ul>
 				<li><a href="index.jsp">Home</a></li>
-				<li><a href="products.jsp">products</a></li>
+				<li><a href="products.jsp">books</a></li>
 				<li><a href="about.jsp">about</a></li>
-				<li><a href="index.jsp">pages</a></li>
+				
 				<li><a href="blog.jsp">blog</a></li>
 				<li><a href="contact.html">Contact</a></li>
 				<div class="clear"></div>

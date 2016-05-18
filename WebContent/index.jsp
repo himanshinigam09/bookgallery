@@ -21,7 +21,7 @@
                                 	 discrete use of CSS<br> transitions and animations.
                                 </h3>
                                 <h3>
-                                	<a class="ei_icons" href="http://file.allitebooks.com/20160513/Transitions%20and%20Animations%20in%20CSS.pdf"><img src="images/icon_1.png" alt=""></a>
+                                	<a class="ei_icons" href="http://file.allitebooks.com/20160513/Transitions%20and%20Animations%20in%20CSS.pdf" target="_blank"><img src="images/icon_1.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_2.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_3.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_4.png" alt=""></a>
@@ -38,7 +38,7 @@
                                 	 how to create  a real <br> 2D game from start to finish.
                                 </h3>
                                 <h3>
-                                	<a class="ei_icons" href="http://file.allitebooks.com/20150529/Introducing%20HTML5%20Game%20Development.pdf"><img src="images/icon_1.png" alt=""></a>
+                                	<a class="ei_icons" href="http://file.allitebooks.com/20150529/Introducing%20HTML5%20Game%20Development.pdf" target="_blank"><img src="images/icon_1.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_2.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_3.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_4.png" alt=""></a>
@@ -54,7 +54,7 @@
                                 	understanding of how JSON works. 
                                 </h3>
                                 <h3>
-                                	<a class="ei_icons" href="http://file.allitebooks.com/20151216/Introduction%20to%20JavaScript%20Object%20Notation.pdf"><img src="images/icon_1.png" alt=""></a>
+                                	<a class="ei_icons" href="http://file.allitebooks.com/20151216/Introduction%20to%20JavaScript%20Object%20Notation.pdf" target="_blank"><img src="images/icon_1.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_2.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_3.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_4.png" alt=""></a>
@@ -70,7 +70,7 @@
                                 	you need to build web service<br> APIs with PHP.
                                 </h3>
                                 <h3>
-                                	<a class="ei_icons" href="http://file.allitebooks.com/20160110/PHP%20Web%20Services,%202nd%20Edition.pdf"><img src="images/icon_1.png" alt=""></a>
+                                	<a class="ei_icons" href="http://file.allitebooks.com/20160110/PHP%20Web%20Services,%202nd%20Edition.pdf" target="_blank"><img src="images/icon_1.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_2.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_3.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_4.png" alt=""></a>
@@ -86,7 +86,7 @@
                                 	with new material on Namespaces <br> and XML Schema
                                 </h3>
                                 <h3>
-                                	<a class="ei_icons" href="http://file.allitebooks.com/20150617/XML%20Pocket%20Reference,%203rd%20Edition.pdf"><img src="images/icon_1.png" alt=""></a>
+                                	<a class="ei_icons" href="http://file.allitebooks.com/20150617/XML%20Pocket%20Reference,%203rd%20Edition.pdf" target="_blank"><img src="images/icon_1.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_2.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_3.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_4.png" alt=""></a>
@@ -102,7 +102,7 @@
                                 	with HTML5's versatile <br>collection of elements. 
                                 </h3>
                                 <h3>
-                                	<a class="ei_icons" href="http://file.allitebooks.com/20150518/HTML5%20Cookbook.pdf"><img src="images/icon_1.png" alt=""></a>
+                                	<a class="ei_icons" href="http://file.allitebooks.com/20150518/HTML5%20Cookbook.pdf" target="_blank"><img src="images/icon_1.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_2.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_3.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_4.png" alt=""></a>
@@ -118,7 +118,7 @@
                                 	for Android with a mix of native <br> Java and JavaScript components.
                                 </h3>
                                 <h3>
-                                	<a class="ei_icons" href="http://file.allitebooks.com/20150520/Building%20Hybrid%20Android%20Apps%20with%20Java%20and%20JavaScript.pdf"><img src="images/icon_1.png" alt=""></a>
+                                	<a class="ei_icons" href="http://file.allitebooks.com/20150520/Building%20Hybrid%20Android%20Apps%20with%20Java%20and%20JavaScript.pdf" target="_blank"><img src="images/icon_1.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_2.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_3.png" alt=""></a>
                                 	<a class="ei_icons" href="details.html"><img src="images/icon_4.png" alt=""></a>
