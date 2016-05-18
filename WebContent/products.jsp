@@ -80,7 +80,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			<a href="index.jsp"><img src="images/logo1.png" alt=""/></a>
 		</div>
 		 <div class="log_reg">
 				<ul>
@@ -124,7 +124,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<%if (session.getAttribute("userName")!=null){
 				%> 
 			<ul>
-				<li class="active"><a href="index.jsp">Home</a></li>
+				<li><a href="index.jsp">Home</a></li>
 				
 				<li><a href="about.jsp">about</a></li>
 				
