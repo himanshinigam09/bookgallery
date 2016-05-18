@@ -1,3 +1,5 @@
+
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!--A Design by W3layouts
@@ -48,7 +50,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 #cap-bot:before { bottom: 10px; left: 10px; } 
 #cap-bot figcaption { left: 0; bottom: -30%;} 
 #cap-bot:hover figcaption { bottom: 0; }
-
 #hvr-grow-shadow {
 	display: inline-block;
   vertical-align: middle;
@@ -80,7 +81,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
-			<a href="index.jsp"><img src="images/logo1.png" alt=""/></a>
+			<a href="index.jsp"><img src="images/logo.png" alt=""/></a>
 		</div>
 		 <div class="log_reg">
 				<ul>
@@ -124,7 +125,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<%if (session.getAttribute("userName")!=null){
 				%> 
 			<ul>
-				<li><a href="index.jsp">Home</a></li>
+				<li class="active"><a href="index.jsp">Home</a></li>
 				
 				<li><a href="about.jsp">about</a></li>
 				
@@ -534,7 +535,6 @@ $(document).ready(function(){
 	   
 	   var search = $("#search-criteria");
 	   var items  = $(".portfolio-item");
-
 	   $("#search").on("click", function(e){
 	        
 	        var v = search.val().toLowerCase();
@@ -557,4 +557,3 @@ $(document).ready(function(){
     
 </body>
 </html>
-			
