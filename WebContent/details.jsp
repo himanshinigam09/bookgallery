@@ -33,7 +33,37 @@ function display() {
 	var x = document.getElementById("physics").value;
 	var x = document.getElementById("pc software").value;
 	var x = document.getElementById("c").value;
-    var x = document.getElementById("stats1").value;
+    var x = document.getElementById("stats").value;
+    var x = document.getElementById("c++").value;
+    var x = document.getElementById("physics2").value;
+    var x = document.getElementById("DE").value;
+    var x = document.getElementById("data_structure").value;
+    var x = document.getElementById("dco").value;
+    var x = document.getElementById("dbms").value;
+    var x = document.getElementById("linear_algebra").value;
+    var x = document.getElementById("unix").value;
+    var x = document.getElementById("CG").value;
+    var x = document.getElementById("sys_pro").value;
+    var x = document.getElementById("DCC").value;
+    var x = document.getElementById("DCC2").value;
+    var x = document.getElementById("java").value;
+    var x = document.getElementById("AE").value;
+    var x = document.getElementById("computer_architecture").value;
+    var x = document.getElementById("OS1").value;
+    var x = document.getElementById("OS2").value;
+    var x = document.getElementById("OS3").value;
+    var x = document.getElementById("linear_sys").value;
+    var x = document.getElementById("adbms").value;
+    var x = document.getElementById("computer_network").value;
+    var x = document.getElementById("ADA").value;
+    var x = document.getElementById("ADA_2").value;
+    var x = document.getElementById("AI").value;
+    var x = document.getElementById("component_tech").value;
+    var x = document.getElementById("UML").value;
+    var x = document.getElementById("formal_lang").value;
+    var x = document.getElementById("parallel_processing").value;
+    var x = document.getElementById("advanced_computer_architecture").value;
+    
     
 }
 
@@ -428,8 +458,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="c++" name="bookId" id="c++" />
+								<button class="btn1" onclick="display()">Download</button>
 						
 							</form>
 						</div>
@@ -469,12 +499,12 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>c++ details</p>
+						<p>phy2 details</p>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+							<input   type="hidden" value="physics2" name="bookId" id="physics2" />
+								<button class="btn1" onclick="display()">Download</button>
 						
 							</form>
 						</div>
@@ -517,9 +547,9 @@ $.extend({
 						<p>DE details</p>
 						</div><br/>
 					<div class="btn_form">
-							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="DE" name="bookId" id="DE" />
+								<button class="btn1" onclick="display()">Download</button>
 						
 							</form>
 						</div>
@@ -561,9 +591,9 @@ $.extend({
 						<p>data_structure details</p>
 						</div><br/>
 					<div class="btn_form">
-							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="data_structure" name="bookId" id="data_structure" />
+								<button class="btn1" onclick="display()">Download</button>
 						
 							</form>
 						</div>
@@ -607,8 +637,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+							<input   type="hidden" value="dco" name="bookId" id="dco" />
+								<button class="btn1" onclick="display()">Download</button>
 						
 							</form>
 						</div>
@@ -651,8 +681,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+							<input   type="hidden" value="dbms" name="bookId" id="dbms" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					
@@ -695,8 +725,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="linear_algebra" name="bookId" id="linear_algebra" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -785,8 +815,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="unix" name="bookId" id="unix" />
+								<button class="btn1" onclick="display()">Download</button>
 						
 							</form>
 						</div>
@@ -830,8 +860,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="CG" name="bookId" id="CG" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -873,8 +903,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="sys_pro" name="bookId" id="sys_pro" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -916,8 +946,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="DCC" name="bookId" id="DCC" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -959,8 +989,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="DCC2" name="bookId" id="DCC2" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1002,8 +1032,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="java" name="bookId" id="java" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1045,8 +1075,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="AE" name="bookId" id="AE" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1088,8 +1118,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="computer_architecture" name="bookId" id="computer_architecture" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1131,8 +1161,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="OS1" name="bookId" id="OS1" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1174,8 +1204,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="OS2" name="bookId" id="OS2" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1217,8 +1247,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="OS3" name="bookId" id="OS3" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1260,8 +1290,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="linear_sys" name="bookId" id="linear_sys" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1303,8 +1333,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="adbms" name="bookId" id="adbms" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1346,8 +1376,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="adbms" name="bookId" id="adbms" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1389,8 +1419,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="adbms" name="bookId" id="adbms" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1432,8 +1462,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="computer_network" name="bookId" id="computer_network" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1475,8 +1505,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="ADA" name="bookId" id="ADA" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1518,8 +1548,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="ADA_2" name="bookId" id="ADA_2" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1560,8 +1590,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="AI" name="bookId" id="AI" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1602,8 +1632,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="component_tech" name="bookId" id="component_tech" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1644,8 +1674,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="UML" name="bookId" id="UML" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1686,8 +1716,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="formal_lang" name="bookId" id="formal_lang" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1728,8 +1758,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="parallel_processing" name="bookId" id="parallel_processing" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
@@ -1770,8 +1800,8 @@ $.extend({
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
+    							<input   type="hidden" value="advanced_computer_architecture" name="bookId" id="advanced_computer_architecture" />
+								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
 					<div class="share-desc">
