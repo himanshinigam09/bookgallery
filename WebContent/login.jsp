@@ -30,7 +30,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping address, view and track your orders in your accoung and more.</p>
 		<div class="btn">
 			<form>
-				<input type="button"  onclick="location.href='register.html';" value="create an account" />
+				<input type="button"  onclick="location.href='register.jsp';" value="create an account" />
 			</form>
 		</div>
 	</div>

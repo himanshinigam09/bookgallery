@@ -56,7 +56,7 @@
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
-			<a href="index.html"><img src="images/logo1.png" alt=""/></a>
+			<a href="index.jsp"><img src="images/logo1.png" alt=""/></a>
 		</div>
 		 <div class="log_reg">
 				<ul>
@@ -120,7 +120,7 @@
 				<li><a href="about.jsp">about</a></li>
 				
 				<li><a href="blog.jsp">blog</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="contact.jsp">Contact</a></li>
 				<div class="clear"></div>
 			</ul>
 		</nav>

@@ -21,7 +21,7 @@
 			<div class="about-left">
 				<h3><a href="#">Lorem Ipsum is simply dummy text</a></h3>
 			</div>	
-				<div class="blog-img"><a href="project.html"><img src="images/blog-img2.jpg" alt=""></a></div>
+				<div class="blog-img"><a href="project.jsp"><img src="images/blog-img2.jpg" alt=""></a></div>
 			     <div class="blog">
 					<div class="blogsidebar span_1_of_blog">
 					   <ul class="blog-list">
@@ -39,7 +39,7 @@
 		         <div class="about-left">
 					<h3><a href="#">It is a long established fact that a reader will be distracted</a></h3>
 				 </div>	
-		         <div class="blog-img1"><a href="project.html"><img src="images/blog-img1.jpg" alt=""></a></div>
+		         <div class="blog-img1"><a href="project.jsp"><img src="images/blog-img1.jpg" alt=""></a></div>
 		         <div class="blog">
 					<div class="blogsidebar span_1_of_blog">
 					   <ul class="blog-list">
@@ -57,7 +57,7 @@
 		          <div class="about-left">
 					<h3><a href="#">There are many variations of passages of Lorem Ipsum available</a></h3>
 				 </div>	
-		         <div class="blog-img1"><a href="project.html"><img src="images/blog-img.jpg" alt=""></a></div>
+		         <div class="blog-img1"><a href="project.jsp"><img src="images/blog-img.jpg" alt=""></a></div>
 		         <div class="blog">
 					<div class="blogsidebar span_1_of_blog">
 					   <ul class="blog-list">

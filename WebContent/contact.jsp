@@ -45,7 +45,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="contact_right">
 				  <div class="contact-form">
 				  	<h3>Contact Us</h3>
-					    <form method="post" action="contact-post.html">
+					    <form method="post" action="contact-post.jsp">
 					    	<div>
 						    	<span><label>NAME</label></span>
 						    	<span><input name="userName" type="text" class="textbox"></span>
