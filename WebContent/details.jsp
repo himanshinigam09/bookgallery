@@ -251,9 +251,11 @@ $.extend({
 <!-- start main -->
 <div class="main_bg">
 <div class="wrap">
-<div class="main">
+
 	<!-- start content -->
 	<div class="single">
+	<br />
+<br />
 			<!-- start span1_of_1 -->
 			<div class="left_content">
 			
@@ -272,7 +274,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>Physics details</p>
+						<h1 style="font-size: 30px">Electrical Technology</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -301,7 +303,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>Intro_to_comp details</p>
+						<h1 style="font-size: 30px">Introduction to Computers</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -329,7 +331,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>let us c details</p>
+						<h1 style="font-size: 30px">Let us C</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -357,7 +359,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>stats1 details</p>
+						<h1 style="font-size: 30px">Statistics and Econometrics</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -384,7 +386,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>c++ details</p>
+						<h1 style="font-size: 30px">Object Oriented Programming with C++</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -411,7 +413,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>phy2 details</p>
+						<h1 style="font-size: 30px">Solid-State Electronic Devices</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -439,7 +441,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>DE details</p>
+						<h1 style="font-size: 30px">Digital logic and Computer Design</h1>
 						</div><br/>
 					<div class="btn_form">
 					<form  method="get" action="FileReadPdf">
@@ -466,7 +468,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>data_structure details</p>
+						<h1 style="font-size: 30px">Fundamentals of Data Structures in C++</h1>
 						</div><br/>
 					<div class="btn_form">
 					<form  method="get" action="FileReadPdf">
@@ -493,7 +495,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>dco details</p>
+						<h1 style="font-size: 30px">Computer System Architecture</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -519,7 +521,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>database_sys details</p>
+						<h1 style="font-size: 30px">Database System Concepts</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -544,7 +546,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>linear_algebra details</p>
+						<h1 style="font-size: 30px">Linear Algebra</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -556,32 +558,7 @@ $.extend({
 			   	</div>
 			   	<!-- end linear_algebra -->
 			   	
-			   	<!-- start modern_database -->
-			   	 <div id="modern_database_details" class="divcontent">
-			<div class="span1_of_1">
-			<!-- start product_slider -->
-				    <div class="product-image"> 
-				        
-				           	<img src="images/sem4/modern_database.png" class="img-responsive" alt="" title="" />
-				     </div>
-					
-			<!-- end product_slider -->
-			<!-- start span1_of_1 -->
-			</div>
-				  <div class="desc1">
-					<div class="available">
-						<p>modern database details</p>
-						</div><br/>
-					<div class="btn_form">
-							<form  method="get" action="FileReadPdf">
-    							Enter Book Name :<input type="text" name="bookId" /><br/>
-    							<input type="submit" value="Download" title="" />
-						
-							</form>
-						</div>
-					</div>
-			  </div>
-			   	<!-- end modern_database details -->
+			   	
 			   	
 			   	<!-- start unix -->
 			   	 <div id="unix_details" class="divcontent">
@@ -597,7 +574,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>unix details</p>
+						<h1 style="font-size: 30px">UNIX</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -623,7 +600,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>CG details</p>
+						<h1 style="font-size: 30px">Procedural Elements for Computer Graphics</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -648,7 +625,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>sys_pro details</p>
+						<h1 style="font-size: 30px">System Programming</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -673,7 +650,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>dcc details</p>
+						<h1 style="font-size: 30px">Data and Computer Communications</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -698,7 +675,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>dcc1 details</p>
+						<h1 style="font-size: 30px">Data Communications and Networking</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -723,7 +700,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>java details</p>
+						<h1 style="font-size: 30px">Java -How to Program</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -748,7 +725,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>AE details</p>
+						<h1 style="font-size: 30px">Electronic Devices and Circuit Theory</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -774,7 +751,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>computer_architecture details</p>
+						<h1 style="font-size: 30px">Computer Organization and Architecture</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -800,7 +777,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>OS_5th_edi details</p>
+						<h1 style="font-size: 30px">Operating system concepts -5th edition</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -826,7 +803,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>OS_8th_edi details</p>
+						<h1 style="font-size: 30px">Operating system concepts -8th edition</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -852,7 +829,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>OS_9th_edi details</p>
+						<h1 style="font-size: 30px">Operating system concepts -9th edition</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -878,7 +855,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>linear_sys details</p>
+						<h1 style="font-size: 30px">Control Systems Engineering</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -891,31 +868,7 @@ $.extend({
 			   	</div>
 			   	<!-- end linear_sys -->
 			   	
-			   	<!-- start ADBMS -->
-			   	 <div id="ADBMS_details" class="divcontent">
-			<div class="span1_of_1">
-			<!-- start product_slider -->
-				    <div class="product-image"> 
-				    	<img src="images/sem8/ADBMS.png" class="img-responsive" alt="ADBMS" title="" />
-				    </div>
-					
-			<!-- end product_slider -->
-			<!-- start span1_of_1 -->
-			</div>
-				  <div class="desc1">
-					<div class="available">
-						<p>ADBMS details</p>
-						</div><br/>
-					<div class="btn_form">
-							<form  method="get" action="FileReadPdf">
-    							<input   type="hidden" value="adbms" name="bookId" id="adbms" />
-								<button class="btn1" onclick="display()">Download</button>
-							</form>
-						</div>
-					
-			   	 </div>
-			   	</div>
-			   	<!-- end ADBMS-->
+			   	
 			   	
 			   	<!-- start ADBMS1 -->
 			   	 <div id="ADBMS1_details" class="divcontent">
@@ -930,7 +883,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>ADBMS1 details</p>
+						<h1 style="font-size: 30px">Modern Database Management</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -943,31 +896,6 @@ $.extend({
 			   	</div>
 			   	<!-- end ADBMS1 -->
 			   	
-			   	<!-- start ADBMS1 -->
-			   	 <div id="ADBMS1_details" class="divcontent">
-			<div class="span1_of_1">
-			<!-- start product_slider -->
-				  <div class="product-image"> 
-				    	<img src="images/sem8/ADBMS1.png" class="img-responsive" alt="ADBMS1" title="" />
-				    </div>
-					
-			<!-- end product_slider -->
-			<!-- start span1_of_1 -->
-			</div>
-				  <div class="desc1">
-					<div class="available">
-						<p>ADBMS1 details</p>
-						</div><br/>
-					<div class="btn_form">
-							<form  method="get" action="FileReadPdf">
-    							<input   type="hidden" value="adbms" name="bookId" id="adbms" />
-								<button class="btn1" onclick="display()">Download</button>
-							</form>
-						</div>
-					
-			   	 </div>
-			   	</div>
-			   	<!-- end ADBMS1 -->
 			   	
 			   	<!-- start Computer_network -->
 			   	 <div id="Computer_network_details" class="divcontent">
@@ -982,7 +910,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>Computer_network details</p>
+						<h1 style="font-size: 30px">Computer Networks</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -1008,7 +936,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>ADA details</p>
+						<h1 style="font-size: 30px">Computer Algorithms</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -1034,7 +962,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>ADA2 details</p>
+						<h1 style="font-size: 30px">Introduction to Algorithms</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -1059,7 +987,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>AI details</p>
+						<h1 style="font-size: 30px">Artificial Intelligence</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -1084,7 +1012,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>component_technology details</p>
+						<h1 style="font-size: 30px">Mastering Enterprise Javabeans</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -1109,7 +1037,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>obj_oriented details</p>
+						<h1 style="font-size: 30px">The Unified Modeling Language User guide</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -1134,7 +1062,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>formal_lang_theory details</p>
+						<h1 style="font-size: 30px">Compilers</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -1159,7 +1087,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>parallel_processing details</p>
+						<h1 style="font-size: 30px">Modern Operating Systems</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -1190,7 +1118,7 @@ $.extend({
 			</div>
 				  <div class="desc1">
 					<div class="available">
-						<p>parallel_processing2 details</p>
+						<h1 style="font-size: 30px">Advanced Computer Architecture</h1>
 						</div><br/>
 					<div class="btn_form">
 							<form  method="get" action="FileReadPdf">
@@ -1218,7 +1146,7 @@ $.extend({
 		         	<!-- end tabs -->
 			   	</div>
 			   	<!-- end left content_bottom -->
-		   	</div>
+		   	
 		<!-- start left_sidebar -->
 			
           	    <div class="clear"></div>
