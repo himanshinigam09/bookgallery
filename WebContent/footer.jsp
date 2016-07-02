@@ -17,7 +17,7 @@
 <div class="wrap">
 <div class="footer">
 	<div class="copy">
-		<p class="link"><span>Â© All rights reserved | Created by&nbsp;<a href="http://himanshinigam09.github.io/" target="_blank">Himanshi Nigam</a> and  <a href=""  target="_blank">Amarpreet Jethra</a><a href=""></a></span></p>
+		<p class="link"><span>Â© All rights reserved | Created by&nbsp;<a href="http://himanshinigam09.github.io/" target="_blank">Himanshi Nigam</a> and  <a href="http://amarpreetjethra.github.io/"  target="_blank">Amarpreet Jethra</a><a href=""></a></span></p>
 	</div>
 	
 						<div class="share">
@@ -25,7 +25,6 @@
 							<ul class="share_nav">
 								<li><a href="#" target="_blank"><img src="images/facebook.png" title="facebook"></a></li>
 								<li><a href="#" target="_blank"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#" target="_blank"><img src="images/rss.png" title="Rss"></a></li>
 								<li><a href="https://business.google.com/b/113282676348813296414/dashboard?hl=en" target="_blank"><img src="images/gpluse.png" title="Google+"></a></li>
 				    		</ul>
 						</div>
