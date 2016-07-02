@@ -37,11 +37,11 @@ padding: 4px;
 			 
 	     		<div class="left_sidebar">
 				<ul class="det_nav">
-					<li><a href="http://www.iips.edu.in/downloads/syllabus/MTech-IT/M.Tech_I.pdf" target="_blank">Sem I</a></li>
-					<li><a href="http://www.iips.edu.in/downloads/syllabus/MTech-IT/M.Tech_II.pdf" target="_blank">Sem II</a></li>
-					<li><a href="http://www.iips.edu.in/downloads/syllabus/MTech-IT/M.Tech_III.pdf" target="_blank">Sem III</a></li>
-					<li><a href="http://www.iips.edu.in/downloads/syllabus/MTech-IT/M.Tech_IV.pdf" target="_blank">Sem IV</a></li>
-					<li><a href="http://www.iips.edu.in/downloads/syllabus/MTech-IT/M.Tech_V.pdf" target="_blank">Sem V</a></li>
+					<li><a href="M.Tech syllabus/M.Tech_I(1).pdf" target="_blank">Sem I</a></li>
+					<li><a href="M.Tech syllabus/M.Tech_II.pdf" target="_blank">Sem II</a></li>
+					<li><a href="M.Tech syllabus/M.Tech_III.pdf" target="_blank">Sem III</a></li>
+					<li><a href="M.Tech syllabus/M.Tech_IV.pdf" target="_blank">Sem IV</a></li>
+					<li><a href="M.Tech syllabus/M.Tech_V.pdf" target="_blank">Sem V</a></li>
 					
 				</ul>
 				</div>
@@ -55,11 +55,11 @@ padding: 4px;
 	     	
 	     	<div class="left_sidebar">
 				<ul class="det_nav">
-					<li><a href="http://www.iips.edu.in/downloads/syllabus/MTech-IT/M.Tech_VI.pdf" target="_blank">Sem VI</a></li>
-					<li><a href="http://www.iips.edu.in/downloads/syllabus/MTech-IT/M.Tech_VII.pdf" target="_blank">Sem VII</a></li>
-					<li><a href="http://www.iips.edu.in/downloads/syllabus/MTech-IT/M.Tech_VIII.pdf" target="_blank">Sem VIII</a></li>
-					<li><a href="http://www.iips.edu.in/downloads/syllabus/MTech-IT/M.Tech_IX.pdf" target="_blank">Sem IX</a></li>
-					<li><a href="http://www.iips.edu.in/downloads/syllabus/MTech-IT/M.Tech_X.pdf" target="_blank">Sem X</a></li>
+					<li><a href="M.Tech syllabus/M.Tech_VI.pdf" target="_blank">Sem VI</a></li>
+					<li><a href="M.Tech syllabus/M.Tech_VII.pdf" target="_blank">Sem VII</a></li>
+					<li><a href="M.Tech syllabus/M.Tech_VIII.pdf" target="_blank">Sem VIII</a></li>
+					<li><a href="M.Tech syllabus/M.Tech_IX.pdf" target="_blank">Sem IX</a></li>
+					<li><a href="M.Tech syllabus/M.Tech_X.pdf" target="_blank">Sem X</a></li>
 					
 				</ul>
 				</div>
@@ -79,6 +79,7 @@ padding: 4px;
 				</div>
 			</div>
 	</div>
+	<br /><br />
 </div>
 </div>
 

@@ -4,7 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<style type="text/css">
+	.share
+	{
+	float: right;
+	}
+</style>
 </head>
 <body>
 <!-- start footer -->
@@ -12,17 +17,20 @@
 <div class="wrap">
 <div class="footer">
 	<div class="copy">
-		<p class="link"><span>Â© All rights reserved | Created by&nbsp;<a href=""></a></span></p>
+		<p class="link"><span>Â© All rights reserved | Created by&nbsp;<a href="http://himanshinigam09.github.io/" target="_blank">Himanshi Nigam</a> and  <a href=""  target="_blank">Amarpreet Jethra</a><a href=""></a></span></p>
 	</div>
-	<div class="soc_icons">
-			<ul>
-				<li><a class="icon1" href="#"></a></li>
-				<li><a class="icon2" href="#"></a></li>
-				<li><a class="icon3" href="#"></a></li>
-				<li><a class="icon4" href="#"></a></li>
-				<li><a class="icon5" href="#"></a></li>
-			</ul>	
-	</div>
+	
+						<div class="share">
+							
+							<ul class="share_nav">
+								<li><a href="#" target="_blank"><img src="images/facebook.png" title="facebook"></a></li>
+								<li><a href="#" target="_blank"><img src="images/twitter.png" title="Twiiter"></a></li>
+								<li><a href="#" target="_blank"><img src="images/rss.png" title="Rss"></a></li>
+								<li><a href="https://business.google.com/b/113282676348813296414/dashboard?hl=en" target="_blank"><img src="images/gpluse.png" title="Google+"></a></li>
+				    		</ul>
+						</div>
+						
+					
 	<div class="clear"></div>
 </div>
 </div>

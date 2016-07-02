@@ -2170,6 +2170,7 @@ span.color7{
 		padding: 0 20px;
 		font-size: 14px;
 	}
+	
 	.f_search {
 		width: 100%;
 	}
@@ -2238,6 +2239,7 @@ span.color7{
 	}
 	.navicon {
 		top: 125px;
+		display: block;
 	}
 	.price1 {
 		font-size: 13px;

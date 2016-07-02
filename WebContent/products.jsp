@@ -2,12 +2,7 @@
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -72,6 +67,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 #hvr-grow-shadow figcaption { left: 0; bottom: -30%;} 
 #hvr-grow-shadow:before { bottom: 10px; left: 10px; } 
 #hvr-grow-shadow:hover figcaption { bottom: 0; }
+
 </style>
 
 </head>
@@ -81,7 +77,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
-			<a href="index.jsp"><img src="images/logo.png" alt=""/></a>
+			<a href="index.jsp"><img src="images/logo1.png" alt=""/></a>
 		</div>
 		 <div class="log_reg">
 				<ul>
@@ -129,8 +125,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				
 				<li><a href="about.jsp">about</a></li>
 				
-				<li><a href="blog.jsp">blog</a></li>
-				<li><a href="contact.jsp">Contact</a></li>
+				
 				<li><a href="products.jsp">books</a></li>
 				<div class="clear"></div>
 			</ul>
@@ -144,8 +139,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<li><a href="products.jsp">books</a></li>
 				<li><a href="about.jsp">about</a></li>
 				
-				<li><a href="blog.jsp">blog</a></li>
-				<li><a href="contact.jsp">Contact</a></li>
+				
 				<div class="clear"></div>
 			</ul>
 			<% } 
@@ -176,12 +170,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<% } %>
 			
 		</nav>
-	<div class="header_right">
-		<ul>
-			<li><a href="#"><i  class="art"></i><span class="color1">30</span></a></li>
-			<li><a href="#"><i  class="cart"></i><span>0</span></a></li>
-		</ul>
-	</div>
+	
 	<div class="clear"></div>
 </div>
 </div>
@@ -513,8 +502,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 </div>
 </div>
-<!-- start footer -->
-<jsp:include page="footer.jsp" />
+<%@include file="footer.jsp" %>
+
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
    
@@ -530,6 +519,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				$('nav#menu-left').mmenu();
 			});
 		</script>
+		
 		<script type="text/javascript">
 $(document).ready(function(){
 	   
@@ -538,18 +528,16 @@ $(document).ready(function(){
 	   $("#search").on("click", function(e){
 	        
 	        var v = search.val().toLowerCase();
-	       if(v == "") { 
-	           items.show();
-	           return;
-	       }
+	       
 	        $.each(items, function(){
 	            var it = $(this);
 	            var lb = it.find("figcaption").text().toLowerCase();
-	            console.log( lb + " --- " + v);
+	            
 	            if(lb.indexOf(v) == -1) 
 	                 it.hide();
 	            else 
-	            	{ it.show(); }
+	            	{items.hide();
+	            	it.show(); }
 	        });
 	    });        
 	});

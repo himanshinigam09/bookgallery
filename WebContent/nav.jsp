@@ -93,8 +93,8 @@
 				<li><a href="index.jsp">Home</a></li>
 				<li><a href="about.jsp">about</a></li>
 				
-				<li><a href="blog.jsp">blog</a></li>
-				<li><a href="contact.jsp">Contact</a></li>
+				
+				
 				
 				<% 
 				if (username != null) {
@@ -119,20 +119,15 @@
 				<li><a href="products.jsp">books</a></li>
 				<li><a href="about.jsp">about</a></li>
 				
-				<li><a href="blog.jsp">blog</a></li>
-				<li><a href="contact.jsp">Contact</a></li>
+				
 				<div class="clear"></div>
 			</ul>
 		</nav>
 		
-	<div class="header_right">
-		<ul>
-		<li><a href="#"><i  class="art"></i><span class="color1">30</span></a></li>
-			<li><a href="#"><i  class="cart"></i><span>0</span></a></li>
-		</ul>
-	</div>
+	
 	<div class="clear"></div>
 </div>
+
 </div>
 </body>
 </html>

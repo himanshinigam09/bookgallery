@@ -221,6 +221,14 @@ $.extend({
 			});
 		});
 	</script>
+	<style>
+	.img-responsive
+    {
+    height:250px;
+    width:220px;
+    
+    }
+	</style>
 </head>
 <body>
 <%@include file="nav.jsp" %>
@@ -254,17 +262,11 @@ $.extend({
 			<div id="physics_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
-				           	<img src="images/sem1/physics.png" class="img-responsive" alt="" title="" />
+				   
+				 <div class="product-image"> 
+				           	<img src="images/sem1/physics.png"  alt="" title="" />
 				    </div>
-					
-				</div>
-				</div>
-				</div>
+				    
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -279,20 +281,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	
 			   	</div>
 			   	 <!-- end physics details -->
@@ -301,17 +290,12 @@ $.extend({
 			   	 <div id="intro_to_comp_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
+				
 				    <div class="product-image"> 
 				           	<img src="images/sem1/intro_to_comp.png" class="img-responsive" alt="" title="" />
 				     </div>
 					
-				</div>
-				</div>
-				</div>
+				
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -326,20 +310,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	
 			   	</div>
 			   	<!-- end intro_to_comp details -->
@@ -348,16 +319,11 @@ $.extend({
 			   	 <div id="let_us_see_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
+				
 				    <div class="product-image"> 
 				      <img src="images/sem1/let_us_see.png" class="img-responsive" alt="" title="" />
 				     </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -372,20 +338,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!-- end let_us_see details -->
 			   	  
@@ -393,17 +346,12 @@ $.extend({
 			   	 <div id="stats1_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
+				
 				    <div class="product-image"> 
 				        
 				           	<img src="images/sem1/stats1.png" class="img-responsive" alt="" title="" />
 				     </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -418,37 +366,19 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			  </div>
 			   	<!-- end stats1 details -->
 			   	  <!-- start c++ -->
 			   	 <div id="cpp_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
+				
 				    <div class="product-image"> 
 				        
 				           	<img src="images/sem2/c++.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -463,19 +393,7 @@ $.extend({
 						
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!-- end c++ -->
 			   	
@@ -483,17 +401,11 @@ $.extend({
 			   	 <div id="physics2_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
 				    <div class="product-image"> 
 				        
 				           	<img src="images/sem2/physics2.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+				
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -508,19 +420,7 @@ $.extend({
 						
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!-- end physics2 -->	
 			   	
@@ -528,17 +428,12 @@ $.extend({
 			   	 <div id="DE_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
+				
 				    <div class="product-image"> 
 				        
 				           	<img src="images/sem3/DE.jpeg" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -553,36 +448,19 @@ $.extend({
 						
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!-- end DE -->
 			   	<!-- start data_structure -->
 			   	 <div id="data_structure_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
+				
 				    <div class="product-image"> 
 				        
 				           	<img src="images/sem3/data_structure.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -597,19 +475,7 @@ $.extend({
 						
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!-- end data_structure -->
 			   	
@@ -617,17 +483,11 @@ $.extend({
 			   	 <div id="dco_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				  <div class="product-image"> 
 				        
 				           	<img src="images/sem4/dco.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -642,19 +502,7 @@ $.extend({
 						
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!-- end dco -->
 			   	
@@ -662,16 +510,10 @@ $.extend({
 			   	 <div id="database_sys_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				   <div class="product-image"> 
 				      <img src="images/sem4/database_sys.png" class="img-responsive" alt="" title="" />
 				     </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -685,20 +527,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!-- end database_sys details -->
 				   	  
@@ -706,16 +535,10 @@ $.extend({
 			   	 <div id="linear_algebra_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				   <div class="product-image"> 
 				    	<img src="images/sem4/linear_algebra.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -729,19 +552,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!-- end linear_algebra -->
 			   	
@@ -749,17 +560,11 @@ $.extend({
 			   	 <div id="modern_database_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
 				    <div class="product-image"> 
 				        
 				           	<img src="images/sem4/modern_database.png" class="img-responsive" alt="" title="" />
 				     </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -774,20 +579,7 @@ $.extend({
 						
 							</form>
 						</div>
-					
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			  </div>
 			   	<!-- end modern_database details -->
 			   	
@@ -795,17 +587,11 @@ $.extend({
 			   	 <div id="unix_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
 				    <div class="product-image"> 
 				        
 				           	<img src="images/sem4/unix.png" class="img-responsive" alt="" title="" />
 				     </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -820,20 +606,7 @@ $.extend({
 						
 							</form>
 						</div>
-					
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			  </div>
 			   	<!-- end unix -->
 			   	
@@ -841,16 +614,10 @@ $.extend({
 			   	 <div id="CG_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				   <div class="product-image"> 
 				    	<img src="images/sem5/CG.jpeg" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -864,19 +631,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!--end CG -->
 
@@ -884,16 +639,10 @@ $.extend({
 			   	 <div id="sys_pro_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
 				    <div class="product-image"> 
 				    	<img src="images/sem5/sys_pro.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -907,19 +656,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!-- end sys_pro -->
 			   	
@@ -927,16 +664,10 @@ $.extend({
 			   	 <div id="dcc_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
 				    <div class="product-image"> 
 				    	<img src="images/sem6/dcc.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -950,19 +681,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!-- end dcc -->
 			   	
@@ -970,16 +689,10 @@ $.extend({
 			   	 <div id="dcc1_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				   <div class="product-image"> 
 				    	<img src="images/sem6/dcc1.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -993,19 +706,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!-- end dcc1 -->
 			   	
@@ -1013,16 +714,10 @@ $.extend({
 			   	 <div id="java_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				   <div class="product-image"> 
 				    	<img src="images/sem6/java.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1036,19 +731,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
 					</div>
-			   	 </div>
 			   	</div>
 			   	<!-- end java -->
 			   	
@@ -1056,16 +739,10 @@ $.extend({
 			   	 <div id="AE_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				   <div class="product-image"> 
 				    	<img src="images/sem6/AE.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1079,18 +756,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end AE -->
@@ -1099,16 +765,10 @@ $.extend({
 			   	 <div id="computer_architecture_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				   <div class="product-image"> 
 				    	<img src="images/sem7/computer_architecture.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1122,18 +782,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end computer_architecture -->
@@ -1142,16 +791,10 @@ $.extend({
 			   	 <div id="OS_5th_edi_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
 				    <div class="product-image"> 
 				    	<img src="images/sem7/OS_5th_edi.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1165,18 +808,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end OS_5th_edi -->
@@ -1185,16 +817,10 @@ $.extend({
 			   	 <div id="OS_8th_edi_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				  <div class="product-image"> 
 				    	<img src="images/sem7/OS_8th_edi.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1208,18 +834,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end OS_8th_edi -->
@@ -1228,16 +843,10 @@ $.extend({
 			   	 <div id="OS_9th_edi_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				   <div class="product-image"> 
 				    	<img src="images/sem7/OS_9th_edi.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1251,18 +860,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end OS_9th_edi -->
@@ -1271,16 +869,10 @@ $.extend({
 			   	 <div id="linear_sys_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				  <div class="product-image"> 
 				    	<img src="images/sem7/linear_sys.png" class="img-responsive" alt="" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1294,18 +886,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end linear_sys -->
@@ -1314,16 +895,10 @@ $.extend({
 			   	 <div id="ADBMS_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
 				    <div class="product-image"> 
 				    	<img src="images/sem8/ADBMS.png" class="img-responsive" alt="ADBMS" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1337,18 +912,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end ADBMS-->
@@ -1357,16 +921,10 @@ $.extend({
 			   	 <div id="ADBMS1_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				  <div class="product-image"> 
 				    	<img src="images/sem8/ADBMS1.png" class="img-responsive" alt="ADBMS1" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1380,18 +938,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end ADBMS1 -->
@@ -1400,16 +947,10 @@ $.extend({
 			   	 <div id="ADBMS1_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				  <div class="product-image"> 
 				    	<img src="images/sem8/ADBMS1.png" class="img-responsive" alt="ADBMS1" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1423,18 +964,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end ADBMS1 -->
@@ -1443,16 +973,10 @@ $.extend({
 			   	 <div id="Computer_network_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				   <div class="product-image"> 
 				    	<img src="images/sem8/Computer_network.png" class="img-responsive" alt="Computer_network" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1466,18 +990,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end Computer_network -->
@@ -1486,16 +999,10 @@ $.extend({
 			   	 <div id="ADA_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				   <div class="product-image"> 
 				    	<img src="images/sem8/ADA.png" class="img-responsive" alt="ADA" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1509,18 +1016,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end ADA -->
@@ -1529,16 +1025,10 @@ $.extend({
 			   	 <div id="ADA2_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				   <div class="product-image"> 
 				    	<img src="images/sem8/ADA2.png" class="img-responsive" alt="ADA2" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1552,18 +1042,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end ADA2 -->
@@ -1571,16 +1050,10 @@ $.extend({
 			   	 <div id="AI_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
 				    <div class="product-image"> 
 				    	<img src="images/sem9/AI.png" class="img-responsive" alt="AI" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1594,18 +1067,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end AI -->
@@ -1613,16 +1075,10 @@ $.extend({
 			   	 <div id="component_technology_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+			   <div class="product-image"> 
 				    	<img src="images/sem9/component_technology.png" class="img-responsive" alt="component_technology" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1636,18 +1092,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end component_technology -->
@@ -1655,16 +1100,10 @@ $.extend({
 			   	 <div id="obj_oriented_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				 <div class="product-image"> 
 				    	<img src="images/sem9/obj_oriented.png" class="img-responsive" alt="obj_oriented" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1678,18 +1117,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end obj_oriented -->
@@ -1697,16 +1125,10 @@ $.extend({
 			   	 <div id="formal_lang_theory_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
 				    <div class="product-image"> 
 				    	<img src="images/sem10/formal_lang_theory.png" class="img-responsive" alt="formal_lang_theory" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1720,18 +1142,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end formal_lang_theory -->
@@ -1739,16 +1150,10 @@ $.extend({
 			   	 <div id="parallel_processing_details" class="divcontent">
 			<div class="span1_of_1">
 			<!-- start product_slider -->
-				<div class="product-view">
-				    <div class="product-essential">
-				        <div class="product-img-box">
-				    
-				    <div class="product-image"> 
+				   <div class="product-image"> 
 				    	<img src="images/sem10/parallel_processing.png" class="img-responsive" alt="parallel_processing" title="" />
 				    </div>
-					</div>
-				</div>
-				</div>
+					
 			<!-- end product_slider -->
 			<!-- start span1_of_1 -->
 			</div>
@@ -1762,18 +1167,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end parallel_processing -->
@@ -1804,18 +1198,7 @@ $.extend({
 								<button class="btn1" onclick="display()">Download</button>
 							</form>
 						</div>
-					<div class="share-desc">
-						<div class="share">
-							<h4>Share Product :</h4>
-							<ul class="share_nav">
-								<li><a href="#"><img src="images/facebook.png" title="facebook"></a></li>
-								<li><a href="#"><img src="images/twitter.png" title="Twiiter"></a></li>
-								<li><a href="#"><img src="images/rss.png" title="Rss"></a></li>
-								<li><a href="#"><img src="images/gpluse.png" title="Google+"></a></li>
-				    		</ul>
-						</div>
-						<div class="clear"></div>
-					</div>
+					
 			   	 </div>
 			   	</div>
 			   	<!-- end parallel_processing2 -->
@@ -1823,57 +1206,10 @@ $.extend({
 			   	<div class="clear"></div>
 			   	<!-- start left content_bottom -->
 			   	
-			   	<div class="btn_form">
-			   	 <form method="POST" action="FileUpload" enctype="multipart/form-data" >
-
-			        Book Name:<input type="text" name="bookId" /><br/>
-			        Book Pdf:<input type="file" name="file" id="file" /><br/><br/>
-			        <input type="submit" value="Upload" name="upload" id="upload" />
-			    </form>
 			   	
-			   	</div>
-			   		<!-- start tabs -->
-			   		
-				   	<div style="padding:120px 0;">
-        <div id="thumbnail-slider">
-        <h2 class="style">Related Items</h2>
-        
-            <div class="inner">
-                <ul>
-                    <li>
-                        <a class="thumb" href="images/sem7/OS_8th_edi.png"></a>
-                    </li>
-                    <li>
-                        <a class="thumb" href="images/sem7/OS_9th_edi.png"></a>
-                    </li>
-                    <li>
-                        <a class="thumb" href="images/2.jpg"></a>
-                    </li>
-                    <li>
-                        <a class="thumb" href="images/3.jpg"></a>
-                    </li>
-                    <li>
-                        <a class="thumb" href="images/4.jpg"></a>
-                    </li>
-                    <li>
-                        <a class="thumb" href="images/5.jpg"></a>
-                    </li>
-                    <li>
-                        <a class="thumb" href="images/8.jpg"></a>
-                    </li>
-                    <li>
-                        <a class="thumb" href="images/9.jpg"></a>
-                    </li>
-                    <li>
-                        <a class="thumb" href="images/10.jpg"></a>
-                    </li>
-                    <li>
-                        <a class="thumb" href="images/11.jpg"></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    	<br />
+    	<br />
+    	<br />
    <h2 class="style" >Post Comment</h2><br/><br/>
     <div class="fb-comments" data-href="http://localhost:8080/bookgallery/details.jsp" data-numposts="7"></div>
     <!--end-->
