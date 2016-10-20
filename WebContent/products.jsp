@@ -1,5 +1,3 @@
-
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
@@ -76,7 +74,7 @@
 <div class="top_bg" id="fixed_nav">
 <div class="wrap">
 	<div class="header">
-		<div class="logo">
+	<div class="logo">
 			<a href="index.jsp"><img src="images/logo1.png" alt=""/></a>
 		</div>
 		 <div class="log_reg">
@@ -146,7 +144,6 @@
 			 else { %>
 			<ul>
 				<li class="active"><a href="index.jsp">Home</a></li>
-				
 				<li><a href="about.jsp">about</a></li>
 				
 				<li><a href="blog.jsp">blog</a></li>
@@ -180,7 +177,7 @@
 <div class="wrap">
 <div class="main_top">
 	<h2 class="style">Books</h2>
-</div>
+	</div>
 </div>
 </div>
 <!-- start main -->
@@ -212,8 +209,7 @@
           </ul> <!--end portfolio sorting -->
 
           <ul class="portfolio-items list-unstyled" id="grid">
-
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["I Sem"]'>
+          <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["I Sem"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">
                 <a href="details.jsp?id=physics" id="physics">
                 <img src="images/sem1/physics.png"  alt="Item 1" class="img-responsive">
@@ -248,8 +244,8 @@
                   </a>
               </figure>
             </li>
-
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["II Sem"]'>
+            
+             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["II Sem"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">
                   <a href="details.jsp?id=cpp" id="cpp">
                       <img src="images/sem2/c++.png" alt="" class="img-responsive">
@@ -284,7 +280,7 @@
                   </a>
               </figure>
             </li>
-
+            
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IV Sem"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">
                   <a href="details.jsp?id=dco" id="dco">
@@ -321,7 +317,7 @@
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["V Sem"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">
                   <a href="details.jsp?id=CG" id="CG">
-                      <img src="images/sem5/CG.jpeg" alt="" class="img-responsive">
+                   <img src="images/sem5/CG.jpeg" alt="" class="img-responsive">
                       <figcaption>Computer Graphics</figcaption>
                   </a>
               </figure>
@@ -354,7 +350,7 @@
               <figure class="portfolio-item" id="hvr-grow-shadow">
                   <a href="details.jsp?id=java" id="java">
                       <img src="images/sem6/java.png" alt="" class="img-responsive">
-                      <figcaption>Java</figcaption>
+                       <figcaption>Java</figcaption>
                   </a>
               </figure>
             </li>
@@ -423,7 +419,7 @@
                   </a>
               </figure>
             </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VIII Sem"]'>
+             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VIII Sem"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">
                   <a href="details.jsp?id=ADA" id="ADA">
                       <img src="images/sem8/ADA.png" alt="" class="img-responsive">
@@ -459,7 +455,7 @@
               <figure class="portfolio-item" id="hvr-grow-shadow">
                   <a href="details.jsp?id=obj_oriented" id="obj_oriented">
                       <img src="images/sem9/obj_oriented.png" alt="" class="img-responsive">
-                      <figcaption>Unified modeling language</figcaption>
+                       <figcaption>Unified modeling language</figcaption>
                   </a>
               </figure>
             </li>
@@ -495,11 +491,7 @@
 
           </div> <!--end row -->
         </div> <!-- end container-->
-   
-
-    	
-	
-</div>
+        </div>
 </div>
 </div>
 <%@include file="footer.jsp" %>
