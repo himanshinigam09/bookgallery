@@ -1130,7 +1130,15 @@ $.extend({
 			   	 </div>
 			   	</div>
 			   	<!-- end parallel_processing2 -->
+			   	<div class="btn_form">
+			   	 <form method="POST" action="FileUpload" enctype="multipart/form-data" >
+
+			        Book Name:<input type="text" name="bookId" /><br/>
+			        Book Pdf:<input type="file" name="file" id="file" /><br/><br/>
+			        <input type="submit" value="Upload" name="upload" id="upload" />
+			    </form>
 			   	
+			   	</div>
 			   	<div class="clear"></div>
 			   	<!-- start left content_bottom -->
 			   	
