@@ -17,6 +17,33 @@
           </ul> <!--end portfolio sorting -->
 
           <ul class="portfolio-items list-unstyled" id="grid">
+          
+          <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["CG"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=cg2" id="cg2">
+                      <img src="images/sem5/CG2.png" alt="" class="img-responsive">
+                      <figcaption>Computer Graphics</figcaption>
+                  </a>
+              </figure>
+            </li>
+            
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["NAD"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=nad1" id="nad1">
+                      <img src="images/sem5/NAD1.png" alt="" class="img-responsive">
+                      <figcaption>Numerical Analysis and Design</figcaption>
+                  </a>
+              </figure>
+            </li>
+            
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["NAD"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=nad2" id="nad2">
+                      <img src="images/sem5/NAD2.png" alt="" class="img-responsive">
+                      <figcaption>Computer Graphics</figcaption>
+                  </a>
+              </figure>
+            </li>
 
             
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["CG"]'>

@@ -27,6 +27,24 @@
                     </a>
                 </figure>
             </li>
+            
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["DS"]'>
+                <figure class="portfolio-item" id="hvr-grow-shadow">
+                    <a href="details.jsp?id=ds1" id="ds1">
+                        <img src="images/sem3/DS1.png" alt="" class="img-responsive">
+                        <figcaption>Data Structure with C++</figcaption>
+                    </a>
+                </figure>
+            </li>
+            
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IT"]'>
+                <figure class="portfolio-item" id="hvr-grow-shadow">
+                    <a href="details.jsp?id=it" id="it">
+                        <img src="images/sem3/it.png" alt="" class="img-responsive">
+                        <figcaption>Digital Electronics</figcaption>
+                    </a>
+                </figure>
+            </li>
 
              <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["DS"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">

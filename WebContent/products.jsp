@@ -307,7 +307,24 @@
           </ul> <!--end portfolio sorting -->
 
           <ul class="portfolio-items list-unstyled" id="grid">
-
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["M1"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                <a href="details.jsp?id=advance_calculus" id="advance_calculus">
+                <img src="images/sem1/advance_calculus.png"  alt="Item 1" class="img-responsive">
+                <figcaption>Advance Calculus</figcaption>
+                </a>
+              </figure>
+            </li>
+            
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["C"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                <a href="details.jsp?id=c_deitel" id="c_deitel">
+                <img src="images/sem1/C_deitel.png"  alt="Item 1" class="img-responsive">
+                <figcaption>C Deitel</figcaption>
+                </a>
+              </figure>
+            </li>
+            
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["III Sem"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">
                 <a href="details.jsp?id=physics" id="physics">

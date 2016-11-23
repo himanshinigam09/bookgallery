@@ -18,7 +18,32 @@
 
           <ul class="portfolio-items list-unstyled" id="grid">
 
-
+           <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["C++"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=let_us_cpp" id="let_us_cpp">
+                      <img src="images/sem2/let_us_cpp.png" alt="" class="img-responsive">
+                      <figcaption>Let Us C++</figcaption>
+                  </a>
+              </figure>
+            </li>
+            
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["M2"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=differential_eq" id="differential_eq">
+                      <img src="images/sem2/differential_eq.png" alt="" class="img-responsive">
+                      <figcaption>Differential Equation</figcaption>
+                  </a>
+              </figure>
+            </li>
+            
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["S2"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=stats2" id="stats2">
+                      <img src="images/sem2/stats2.png" alt="" class="img-responsive">
+                      <figcaption>Statistical method- II</figcaption>
+                  </a>
+              </figure>
+            </li>
            
 
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["C++"]'>

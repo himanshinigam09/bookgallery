@@ -18,7 +18,18 @@
 
           <ul class="portfolio-items list-unstyled" id="grid">
 
-            
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["DP"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=database_navathe" id="database_navathe">
+                      <img src="images/sem4/database_navathe.png" alt="" class="img-responsive">
+                      <figcaption>Fundamental of Database Systems</figcaption>
+                  </a>
+              </figure>
+            </li>
+
+
+
+
 
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["DCO"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">

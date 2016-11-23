@@ -43,10 +43,34 @@
                   </a>
               </figure>
             </li>
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["java"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=java2" id="java2">
+                      <img src="images/sem6/java2.png" alt="" class="img-responsive">
+                      <figcaption>Java</figcaption>
+                  </a>
+              </figure>
+            </li>
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["java"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=java3" id="java3">
+                      <img src="images/sem6/java3.png" alt="" class="img-responsive">
+                      <figcaption>Java</figcaption>
+                  </a>
+              </figure>
+            </li>
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["AE"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">
                   <a href="details.jsp?id=AE" id="AE">
                       <img src="images/sem6/AE.png" alt="" class="img-responsive">
+                      <figcaption>Analog Electronics</figcaption>
+                  </a>
+              </figure>
+            </li>
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["AE"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=ae2" id="ae2">
+                      <img src="images/sem6/AE2.png" alt="" class="img-responsive">
                       <figcaption>Analog Electronics</figcaption>
                   </a>
               </figure>
