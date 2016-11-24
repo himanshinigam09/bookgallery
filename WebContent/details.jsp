@@ -93,6 +93,62 @@ $.extend({
 		$("#physics_details").show();
 	
 	}
+	else if(id == "cg2") {
+		$('.divcontent').hide();
+		$("#cg2_details").show();
+	}
+	else if(id == "nad1") {
+		$('.divcontent').hide();
+		$("#nad1_details").show();
+	}
+	else if(id == "nad2") {
+		$('.divcontent').hide();
+		$("#nad2_details").show();
+	}
+	else if(id == "java2") {
+		$('.divcontent').hide();
+		$("#java2_details").show();
+	}
+	else if(id == "java3") {
+		$('.divcontent').hide();
+		$("#java3_details").show();
+	}
+	else if(id == "ae2") {
+		$('.divcontent').hide();
+		$("#ae2_details").show();
+	}
+	else if(id == "database_navathe") {
+		$('.divcontent').hide();
+		$("#database_navathe_details").show();
+	}
+	else if(id == "it") {
+		$('.divcontent').hide();
+		$("#it_details").show();
+	}
+	else if(id == "ds1") {
+		$('.divcontent').hide();
+		$("#ds1_details").show();
+	}
+	else if(id == "advance_calculus") {
+		$('.divcontent').hide();
+		$("#advance_calculus_details").show();
+	}
+	else if(id == "c_deitel") {
+		$('.divcontent').hide();
+		$("#c_deitel_details").show();
+	}
+	else if(id == "let_us_cpp") {
+		$('.divcontent').hide();
+		$("#let_us_cpp_details").show();
+	}
+	else if(id == "stats2") {
+		$('.divcontent').hide();
+		$("#stats2_details").show();
+	}
+	else if(id == "differential_eq") {
+		$('.divcontent').hide();
+		$("#differential_eq_details").show();
+	}
 	else if(id == "intro_to_comp") {
 		$('.divcontent').hide();
 		$("#intro_to_comp_details").show();
@@ -259,6 +315,445 @@ $.extend({
 			<!-- start span1_of_1 -->
 			<div class="left_content">
 			
+			<!-- start Java2 -->
+			   	 <div id="java2_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem6/java2.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Java</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="java2" name="bookId" id="java2" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end Java2 -->
+			   	
+			   	
+			   	<!-- start Java3 -->
+			   	 <div id="java3_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem6/java3.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Java</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="java3" name="bookId" id="java3" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end Java3 -->
+			   	
+			   	
+			   	<!-- start AE2 -->
+			   	 <div id="ae2_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem6/AE2.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Analog Electronics</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="ae2" name="bookId" id="ae2" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end AE2 -->
+			
+			<!-- start CG2 -->
+			   	 <div id="cg2_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem5/CG2.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Computer Graphics</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="cg2" name="bookId" id="cg2" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end CG2 -->
+			   	
+			   	
+			   	<!-- start NAD1 -->
+			   	 <div id="nad1_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem5/NAD1.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Numerical Analysis and Design</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="nad1" name="bookId" id="nad1" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end NAD1 -->
+			   	
+			   	
+			   	<!-- start Numerical Analysis and Design -->
+			   	 <div id="nad2_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem5/NAD2.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Numerical Analysis and Design</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="nad2" name="bookId" id="nad2" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end Numerical Analysis and Design -->
+			
+			
+			
+			
+			
+			
+			
+			<!-- start Database Navathe -->
+			   	 <div id="database_navathe_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem4/database_navathe.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Fundamental of Database Systems</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="database_navathe" name="bookId" id="database_navathe" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end Database Navathe -->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- start Data Structure C++ -->
+			   	 <div id="ds1_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem3/DS1.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Data Structure C++</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="ds1" name="bookId" id="ds1" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end Data Structure C++ -->
+			
+			
+			
+			
+			
+			<!-- start Internet Tools -->
+			   	 <div id="it_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem3/it.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Internet Tools</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="it" name="bookId" id="it" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end Internet Tools -->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- start Let Us C++ -->
+			   	 <div id="let_us_cpp_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem2/let_us_cpp.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Let Us C++</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="let_us_cpp" name="bookId" id="let_us_cpp" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end Let Us C++ -->
+			
+			
+			<!-- start Differential equation -->
+			   	 <div id="differential_eq_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem2/differential_eq.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Let Us C++</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="differential_eq" name="bookId" id="differential_eq" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end Differential equation -->
+			   	
+			   	
+			   	<!-- start Stastical Method -->
+			   	 <div id="stats2_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem2/stats2.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Let Us C++</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="stats2" name="bookId" id="stats2" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end Stastical Method -->
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- start Advance Calculus -->
+			   	 <div id="advance_calculus_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem1/advance_calculus.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">Advance Calculus</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="advance_calculus" name="bookId" id="advance_calculus" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end Advance Calculus -->
+			   	
+			   	<!-- start C Deitel -->
+			   	 <div id="c_deitel_details" class="divcontent">
+			<div class="span1_of_1">
+			<!-- start product_slider -->
+				
+				    <div class="product-image"> 
+				        
+				           	<img src="images/sem1/C_deitel.png" class="img-responsive" alt="" title="" />
+				    </div>
+					
+			<!-- end product_slider -->
+			<!-- start span1_of_1 -->
+			</div>
+				  <div class="desc1">
+					<div class="available">
+						<h1 style="font-size: 30px">C Deitel</h1>
+						</div><br/>
+					<div class="btn_form">
+					<form  method="get" action="FileReadPdf">
+							<input   type="hidden" value="c_deitel" name="bookId" id="c_deitel" />
+								<button class="btn1" onclick="display()">Download</button>
+						
+							</form>
+						</div>
+					</div>
+			   	</div>
+			   	<!-- end Advance Calculus -->
+			   	
+			   	
+			   	
+			   	
 			<!-- start physics details -->
 			
 			<div id="physics_details" class="divcontent">
@@ -1143,6 +1638,7 @@ $.extend({
 								
 							</form>
 						</div>
+
 			   	<div class="clear"></div>
 			   	<!-- start left content_bottom -->
 			   	

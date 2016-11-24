@@ -1,12 +1,14 @@
+
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
 <!DOCTYPE HTML>
 <html>
 <head>
- <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/custom.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Book Gallery</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -28,6 +30,83 @@
 			});
 		});
 		</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+       $("#sem1").click(function(){
+        $('#result').load('sem1.jsp');
+       }); 
+       });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+       $("#sem2").click(function(){
+        $('#result').load('sem2.jsp');
+       }); 
+       });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+       $("#sem3").click(function(){
+        $('#result').load('sem3.jsp');
+       }); 
+       });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+       $("#sem4").click(function(){
+        $('#result').load('sem4.jsp');
+         //alert("Thanks for visiting!");
+       }); 
+       });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+       $("#sem5").click(function(){
+        $('#result').load('sem5.jsp');
+         //alert("Thanks for visiting!");
+       }); 
+       });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+       $("#sem6").click(function(){
+        $('#result').load('sem6.jsp');
+         //alert("Thanks for visiting!");
+       }); 
+       });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+       $("#sem7").click(function(){
+        $('#result').load('sem7.jsp');
+         //alert("Thanks for visiting!");
+       }); 
+       });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+       $("#sem8").click(function(){
+        $('#result').load('sem8.jsp');
+         //alert("Thanks for visiting!");
+       }); 
+       });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+       $("#sem9").click(function(){
+        $('#result').load('sem9.jsp');
+         //alert("Thanks for visiting!");
+       }); 
+       });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+       $("#sem10").click(function(){
+        $('#result').load('sem10.jsp');
+         //alert("Thanks for visiting!");
+       }); 
+       });
+</script>
 <style>
 .img-responsive
     {
@@ -74,7 +153,7 @@
 <div class="top_bg" id="fixed_nav">
 <div class="wrap">
 	<div class="header">
-	<div class="logo">
+		<div class="logo">
 			<a href="index.jsp"><img src="images/logo1.png" alt=""/></a>
 		</div>
 		 <div class="log_reg">
@@ -144,6 +223,7 @@
 			 else { %>
 			<ul>
 				<li class="active"><a href="index.jsp">Home</a></li>
+				
 				<li><a href="about.jsp">about</a></li>
 				
 				<li><a href="blog.jsp">blog</a></li>
@@ -177,7 +257,7 @@
 <div class="wrap">
 <div class="main_top">
 	<h2 class="style">Books</h2>
-	</div>
+</div>
 </div>
 </div>
 <!-- start main -->
@@ -192,24 +272,60 @@
 	
 	 <div class="container">
         <div class="row">
-
-          <ul class="portfolio-sorting list-inline text-center">
+         <div class="col-md-3">
+         <div class="about">
+			 
+	     		
+				<ul class="det_nav">
+					<li><a id="sem1" href="#" >Sem I</a></li>
+					<li><a id="sem2" href="#" >Sem II</a></li>
+					<li><a id="sem3" href="#" >Sem III</a></li>
+					<li><a id="sem4" href="#" >Sem IV</a></li>
+					<li><a id="sem5" href="#" >Sem V</a></li>
+					<li><a id="sem6" href="#" >Sem VI</a></li>
+					<li><a id="sem7" href="#" >Sem VII</a></li>
+					<li><a id="sem8" href="#" >Sem VIII</a></li>
+					<li><a id="sem9" href="#" >Sem IX</a></li>
+					<li><a id="sem10" href="#">Sem X</a></li>
+					
+				</ul>
+				
+				
+				</div>
+         
+         </div>
+         <div class="col-md-9" id="result" >
+          <ul class="portfolio-sorting list-inline text-center" >
             <li class="active"><a href="#" data-group="all" class="active">All</a></li>
-            <li><a href="#" data-group="I Sem">I Sem</a></li>
-            <li><a href="#" data-group="II Sem">II Sem</a></li>
-            <li><a href="#" data-group="III Sem">III Sem</a></li>
-            <li><a href="#" data-group="IV Sem">IV Sem</a></li>
-            <li><a href="#" data-group="V Sem">V Sem</a></li>
-            <li><a href="#" data-group="VI Sem">VI Sem</a></li>
-            <li><a href="#" data-group="VII Sem">VII Sem</a></li>
-            <li><a href="#" data-group="VIII Sem">VIII Sem</a></li>
-            <li><a href="#" data-group="IX Sem">IX Sem</a></li>
-            <li><a href="#" data-group="X Sem">X Sem</a></li>
+            <li><a href="#" data-group="I Sem">Mathematics-I</a></li>
+            <li><a href="#" data-group="II Sem">Statistical Methods-I</a></li>
+            <li><a href="#" data-group="III Sem">Physics-I</a></li>
+            <li><a href="#" data-group="IV Sem">C Programming</a></li>
+            <li><a href="#" data-group="V Sem">PC Software</a></li>
+            
             
           </ul> <!--end portfolio sorting -->
 
           <ul class="portfolio-items list-unstyled" id="grid">
-          <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["I Sem"]'>
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["M1"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                <a href="details.jsp?id=advance_calculus" id="advance_calculus">
+                <img src="images/sem1/advance_calculus.png"  alt="Item 1" class="img-responsive">
+                <figcaption>Advance Calculus</figcaption>
+                </a>
+              </figure>
+            </li>
+            
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["C"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                <a href="details.jsp?id=c_deitel" id="c_deitel">
+                <img src="images/sem1/C_deitel.png"  alt="Item 1" class="img-responsive">
+                <figcaption>C Deitel</figcaption>
+                </a>
+              </figure>
+            </li>
+            
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["III Sem"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">
                 <a href="details.jsp?id=physics" id="physics">
                 <img src="images/sem1/physics.png"  alt="Item 1" class="img-responsive">
@@ -218,7 +334,7 @@
               </figure>
             </li>
 
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["I Sem"]'>
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["V Sem"]'>
                 <figure class="portfolio-item" id="hvr-grow-shadow">
                     <a href="details.jsp?id=intro_to_comp" id="intro_to_comp" class="hvr-grow-shadow">
                         <img src="images/sem1/intro_to_comp.png" alt="" class="img-responsive">
@@ -227,7 +343,7 @@
                 </figure>
             </li>
 
-           <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["I Sem"]'>
+           <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IV Sem"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">
                   <a href="details.jsp?id=let_us_see" id="let_us_see">
                       <img src="images/sem1/let_us_see.png" alt="" class="img-responsive">
@@ -236,7 +352,7 @@
               </figure>
             </li>
 
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["I Sem"]'>
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["II Sem"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">
                   <a href="details.jsp?id=stats1" id="stats1">
                       <img src="images/sem1/stats1.png" alt="" class="img-responsive">
@@ -244,254 +360,21 @@
                   </a>
               </figure>
             </li>
-            
-             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["II Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=cpp" id="cpp">
-                      <img src="images/sem2/c++.png" alt="" class="img-responsive">
-                      <figcaption>C++</figcaption>
-                  </a>
-              </figure>
-            </li>
 
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["II Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=physics2" id="physics2">
-                      <img src="images/sem2/physics2.png" alt="" class="img-responsive">
-                      <figcaption>Physics II</figcaption>
-                  </a>
-              </figure>
-            </li>
-
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["III Sem"]'>
-                <figure class="portfolio-item" id="hvr-grow-shadow">
-                    <a href="details.jsp?id=DE" id="DE">
-                        <img src="images/sem3/DE.jpeg" alt="" class="img-responsive">
-                        <figcaption>Digital Electronics</figcaption>
-                    </a>
-                </figure>
-            </li>
-
-             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["III Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=data_structure" id="data_structure">
-                      <img src="images/sem3/data_structure.png" alt="" class="img-responsive">
-                      <figcaption>Data structure in C++</figcaption>
-                  </a>
-              </figure>
-            </li>
-            
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IV Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=dco" id="dco">
-                      <img src="images/sem4/dco.png" alt="" class="img-responsive">
-                      <figcaption>Digital computer organization</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IV Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=database_sys" id="database_sys">
-                      <img src="images/sem4/database_sys.png" alt="" class="img-responsive">
-                      <figcaption>Database system concepts</figcaption>
-                  </a>
-              </figure>
-            </li>
-			 <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IV Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=linear_algebra" id="linear_algebra">
-                      <img src="images/sem4/linear_algebra.png" alt="" class="img-responsive">
-                      <figcaption>Mathematics I</figcaption>
-                  </a>
-              </figure>
-            </li>
-			 
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IV Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=unix" id="unix">
-                      <img src="images/sem4/unix.png" alt="" class="img-responsive">
-                      <figcaption>Unix</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["V Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=CG" id="CG">
-                   <img src="images/sem5/CG.jpeg" alt="" class="img-responsive">
-                      <figcaption>Computer Graphics</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["V Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=sys_pro" id="sys_pro">
-                      <img src="images/sem5/sys_pro.png" alt="" class="img-responsive">
-                      <figcaption>System Programming</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VI Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=dcc" id="dcc">
-                      <img src="images/sem6/dcc.png" alt="" class="img-responsive">
-                      <figcaption>Data and computer communication</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VI Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=dcc1" id="dcc1">
-                      <img src="images/sem6/dcc1.png" alt="" class="img-responsive">
-                      <figcaption>Data communication and networking</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VI Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=java" id="java">
-                      <img src="images/sem6/java.png" alt="" class="img-responsive">
-                       <figcaption>Java</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VI Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=AE" id="AE">
-                      <img src="images/sem6/AE.png" alt="" class="img-responsive">
-                      <figcaption>Analog Electronics</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VII Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=computer_architecture" id="computer_architecture">
-                      <img src="images/sem7/computer_architecture.png" alt="" class="img-responsive">
-                      <figcaption>Computer Architecture</figcaption>
-                  </a>
-              </figure>
-            </li>
-             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VII Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=OS_5th_edi" id="OS_5th_edi">
-                      <img src="images/sem7/OS_5th_edi.png" alt="" class="img-responsive">
-                      <figcaption>Operating system concepts 5th ed</figcaption>
-                  </a>
-              </figure>
-            </li>
-             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VII Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=OS_8th_edi" id="OS_8th_edi">
-                      <img src="images/sem7/OS_8th_edi.png" alt="" class="img-responsive">
-                      <figcaption>Operating system concepts 8th ed</figcaption>
-                  </a>
-              </figure>
-            </li>
-             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VII Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=OS_9th_edi" id="OS_9th_edi">
-                      <img src="images/sem7/OS_9th_edi.png" alt="" class="img-responsive">
-                      <figcaption>Operating system concepts 9th Ed</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VII Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=linear_sys" id="linear_sys">
-                      <img src="images/sem7/linear_sys.png" alt="" class="img-responsive">
-                      <figcaption>Linear System</figcaption>
-                  </a>
-              </figure>
-            </li>
-             
-             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VIII Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=ADBMS1" id="ADBMS1">
-                      <img src="images/sem8/ADBMS1.png" alt="" class="img-responsive">
-                      <figcaption>Modern Database management</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VIII Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=Computer_network" id="Computer_network">
-                      <img src="images/sem8/Computer_network.png" alt="" class="img-responsive">
-                      <figcaption>Computer Networks</figcaption>
-                  </a>
-              </figure>
-            </li>
-             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VIII Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=ADA" id="ADA">
-                      <img src="images/sem8/ADA.png" alt="" class="img-responsive">
-                      <figcaption>Computer Algorithms</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["VIII Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=ADA2" id="ADA2">
-                      <img src="images/sem8/ADA2.png" alt="" class="img-responsive">
-                      <figcaption>Introduction to Algorithms</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IX Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=AI" id="AI">
-                      <img src="images/sem9/AI.png" alt="" class="img-responsive">
-                      <figcaption>Artificial Intelligence</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IX Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=component_technology" id="component_technology">
-                      <img src="images/sem9/component_technology.png" alt="" class="img-responsive">
-                      <figcaption>Component Technology</figcaption>
-                  </a>
-              </figure>
-            </li>
-             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IX Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=obj_oriented" id="obj_oriented">
-                      <img src="images/sem9/obj_oriented.png" alt="" class="img-responsive">
-                       <figcaption>Unified modeling language</figcaption>
-                  </a>
-              </figure>
-            </li>
-             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["X Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=formal_lang_theory" id="formal_lang_theory">
-                      <img src="images/sem10/formal_lang_theory.png" alt="" class="img-responsive">
-                      <figcaption>Formal Language Theory</figcaption>
-                  </a>
-              </figure>
-            </li>
-            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["X Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=parallel_processing" id="parallel_processing">
-                      <img src="images/sem10/parallel_processing.png" alt="" class="img-responsive">
-                      <figcaption>Parallel Processing</figcaption>
-                  </a>
-              </figure>
-            </li>
-             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["X Sem"]'>
-              <figure class="portfolio-item" id="hvr-grow-shadow">
-                  <a href="details.jsp?id=parallel_processing2" id="parallel_processing2">
-                      <img src="images/sem10/parallel_processing2.png" alt="" class="img-responsive">
-                      <figcaption>Advanced Computer Architecture</figcaption>
-                  </a>
-              </figure>
-            </li>
+           
             <!-- sizer -->
             <li class="col-md-4 col-sm-4 col-xs-6 shuffle_sizer"></li>
 
             
           </ul> <!--end portfolio grid -->
-
+          
+</div>
           </div> <!--end row -->
         </div> <!-- end container-->
-        </div>
+   
+
+    	
+	</div>
 </div>
 </div>
 <%@include file="footer.jsp" %>
@@ -500,10 +383,10 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
    
 
-    
+    <script src="js/jquery.shuffle.min.js"></script>
     <script src="js/custom.js"></script>
      <script src="js/bootstrap.min.js"></script>
-     <script src="js/jquery.shuffle.min.js"></script>
+     
     <script type="text/javascript" src="js/jquery.mmenu.js"></script>
 		<script type="text/javascript">
 			//	The menu on the left
@@ -511,29 +394,5 @@
 				$('nav#menu-left').mmenu();
 			});
 		</script>
-		
-		<script type="text/javascript">
-$(document).ready(function(){
-	   
-	   var search = $("#search-criteria");
-	   var items  = $(".portfolio-item");
-	   $("#search").on("click", function(e){
-	        
-	        var v = search.val().toLowerCase();
-	       
-	        $.each(items, function(){
-	            var it = $(this);
-	            var lb = it.find("figcaption").text().toLowerCase();
-	            
-	            if(lb.indexOf(v) == -1) 
-	                 it.hide();
-	            else 
-	            	{items.hide();
-	            	it.show(); }
-	        });
-	    });        
-	});
-</script>
-    
 </body>
 </html>
