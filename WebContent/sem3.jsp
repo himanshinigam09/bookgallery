@@ -11,8 +11,8 @@
             <li><a href="#" data-group="IT">Internet Tools</a></li>
             <li><a href="#" data-group="DE">Digital Electronics</a></li>
             <li><a href="#" data-group="DS">DS with C++</a></li>
-            <li><a href="#" data-group="ED">ED</a></li>
-           
+            <li><a href="#" data-group="ED">Engineering Drawing</a></li>
+            
             
           </ul> <!--end portfolio sorting -->
 
@@ -53,6 +53,30 @@
                       <figcaption>Data structure in C++</figcaption>
                   </a>
               </figure>
+            </li>
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IT"]'>
+                <figure class="portfolio-item" id="hvr-grow-shadow">
+                    <a href="details.jsp?id=head_first_html5" id="head_first_html5">
+                        <img src="images/sem3/head_first_html5.png" alt="" class="img-responsive">
+                        <figcaption>Head First HTML5 Programming</figcaption>
+                    </a>
+                </figure>
+            </li>
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IT"]'>
+                <figure class="portfolio-item" id="hvr-grow-shadow">
+                    <a href="details.jsp?id=jquery" id="jquery">
+                        <img src="images/sem3/jquery.png" alt="" class="img-responsive">
+                        <figcaption>Jquery Tutorial</figcaption>
+                    </a>
+                </figure>
+            </li>
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["IT"]'>
+                <figure class="portfolio-item" id="hvr-grow-shadow">
+                    <a href="details.jsp?id=php_mysql" id="php_mysql">
+                        <img src="images/sem3/php_mysql.png" alt="" class="img-responsive">
+                        <figcaption>PHP/MySQL</figcaption>
+                    </a>
+                </figure>
             </li>
 
             

@@ -12,7 +12,7 @@
             <li><a href="#" data-group="ADBMS">ADBMS</a></li>
             <li><a href="#" data-group="SE">Software Engineering</a></li>
             <li><a href="#" data-group="CS">Control Systems</a></li>
-            
+            <li><a href="#" data-group="Ref">References</a></li>
             
           </ul> <!--end portfolio sorting -->
 
@@ -48,6 +48,14 @@
                   <a href="details.jsp?id=ADA2" id="ADA2">
                       <img src="images/sem8/ADA2.png" alt="" class="img-responsive">
                       <figcaption>Introduction to Algorithms</figcaption>
+                  </a>
+              </figure>
+            </li>
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["CN"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=tanenbaum" id="tanenbaum">
+                      <img src="images/sem8/tanenbaum.png" alt="" class="img-responsive">
+                      <figcaption>Computer Networks</figcaption>
                   </a>
               </figure>
             </li>

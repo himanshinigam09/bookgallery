@@ -11,7 +11,7 @@
             <li><a href="#" data-group="POO">Principles of Optimization</a></li>
             <li><a href="#" data-group="CT">Component Technology</a></li>
             <li><a href="#" data-group="OOAD">OOAD</a></li>
-            
+            <li><a href="#" data-group="Ref">References</a></li>
             
           </ul> <!--end portfolio sorting -->
 

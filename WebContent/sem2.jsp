@@ -12,7 +12,7 @@
             <li><a href="#" data-group="phy2">Physics-II</a></li>
             <li><a href="#" data-group="BE">Basic Electronics</a></li>
             <li><a href="#" data-group="C++">C++</a></li>
-           
+            
             
           </ul> <!--end portfolio sorting -->
 

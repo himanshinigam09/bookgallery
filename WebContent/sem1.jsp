@@ -58,8 +58,16 @@
            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["C"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">
                   <a href="details.jsp?id=let_us_see" id="let_us_see">
-                      <img src="images/sem1/let_us_see.png" alt="" class="img-responsive">
+                      <img src="images/sem1/let_us_c.png" alt="" class="img-responsive">
                       <figcaption>Let us C</figcaption>
+                  </a>
+              </figure>
+            </li>
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["C"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=let_us_c_solutions" id="let_us_c_solutions">
+                      <img src="images/sem1/let_us_c_solutions.png" alt="" class="img-responsive">
+                      <figcaption>Let us C Solutions</figcaption>
                   </a>
               </figure>
             </li>
@@ -69,6 +77,14 @@
                   <a href="details.jsp?id=stats1" id="stats1">
                       <img src="images/sem1/stats1.png" alt="" class="img-responsive">
                       <figcaption>Statistics</figcaption>
+                  </a>
+              </figure>
+            </li>
+            <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["C"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=dennis_ritchie" id="dennis_ritchie">
+                      <img src="images/sem1/dennis_ritchie.png" alt="" class="img-responsive">
+                      <figcaption>ANSI C</figcaption>
                   </a>
               </figure>
             </li>

@@ -17,7 +17,16 @@
           </ul> <!--end portfolio sorting -->
 
           <ul class="portfolio-items list-unstyled" id="grid">
-
+			
+			<li class="col-md-4 col-sm-4 col-xs-6" data-groups='["AFM"]'>
+              <figure class="portfolio-item" id="hvr-grow-shadow">
+                  <a href="details.jsp?id=afm-1" id="afm-1">
+                      <img src="images/sem4/afm-1.png" alt="" class="img-responsive">
+                      <figcaption>Accountancy</figcaption>
+                  </a>
+              </figure>
+            </li>
+            
             <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["DP"]'>
               <figure class="portfolio-item" id="hvr-grow-shadow">
                   <a href="details.jsp?id=database_navathe" id="database_navathe">
