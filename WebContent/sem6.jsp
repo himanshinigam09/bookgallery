@@ -7,12 +7,12 @@
 <body>
 <ul class="portfolio-sorting list-inline text-center">
             <li class="active"><a href="#" data-group="all" class="active">All</a></li>
-            <li><a href="#" data-group="PPM">PPM</a></li>
+            <li><a href="#" data-group="PPM">Principles & Practices of Management</a></li>
             <li><a href="#" data-group="DCC">Data & Computer Communication</a></li>
             <li><a href="#" data-group="java">Java-I</a></li>
             <li><a href="#" data-group="SAD">System Analysis & Design</a></li>
-            <li><a href="#" data-group="AE">AE</a></li>
-           <li><a href="#" data-group="Ref">References</a></li>
+            <li><a href="#" data-group="AE">Analog Electronics</a></li>
+           
             
           </ul> <!--end portfolio sorting -->
 

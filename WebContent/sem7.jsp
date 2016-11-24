@@ -12,7 +12,7 @@
             <li><a href="#" data-group="DS">Discrete Structure</a></li>
             <li><a href="#" data-group="OS">Operating System</a></li>
             <li><a href="#" data-group="BI">Bio-Informatics</a></li>
-            <li><a href="#" data-group="Ref">References</a></li>
+            
             
           </ul> <!--end portfolio sorting -->
 

@@ -8,11 +8,11 @@
 <ul class="portfolio-sorting list-inline text-center">
             <li class="active"><a href="#" data-group="all" class="active">All</a></li>
             <li><a href="#" data-group="CN">Computer Networks</a></li>
-            <li><a href="#" data-group="ADA">ADA</a></li>
-            <li><a href="#" data-group="ADBMS">ADBMS</a></li>
+            <li><a href="#" data-group="ADA">Analysis & Design of Algorithm</a></li>
+            <li><a href="#" data-group="ADBMS">Advanced Database Management System</a></li>
             <li><a href="#" data-group="SE">Software Engineering</a></li>
             <li><a href="#" data-group="CS">Control Systems</a></li>
-            <li><a href="#" data-group="Ref">References</a></li>
+           
             
           </ul> <!--end portfolio sorting -->
 

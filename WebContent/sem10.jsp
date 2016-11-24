@@ -10,7 +10,7 @@
             <li><a href="#" data-group="formal_lang">Formal Language Theory</a></li>
             <li><a href="#" data-group="parallel_proc">Parallel Processing</a></li>
             <li><a href="#" data-group="research">Research in computing</a></li>
-            <li><a href="#" data-group="Ref">References</a></li>
+            
             
           </ul> <!--end portfolio sorting -->
 

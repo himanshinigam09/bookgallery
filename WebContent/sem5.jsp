@@ -11,7 +11,7 @@
             <li><a href="#" data-group="micro">Micro Processor</a></li>
             <li><a href="#" data-group="CG">Computer Graphics</a></li>
             <li><a href="#" data-group="SYS_PRO">System Programming</a></li>
-            <li><a href="#" data-group="NAD">NAD</a></li>
+            <li><a href="#" data-group="NAD">Numerical Analysis & Design</a></li>
             
             
           </ul> <!--end portfolio sorting -->

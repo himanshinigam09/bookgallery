@@ -7,10 +7,10 @@
 <body>
 <ul class="portfolio-sorting list-inline text-center">
             <li class="active"><a href="#" data-group="all" class="active">All</a></li>
-            <li><a href="#" data-group="AFM">AFM-I</a></li>
+            <li><a href="#" data-group="AFM">Accounting & Financial Management-I</a></li>
             <li><a href="#" data-group="LA">Linear Algebra</a></li>
             <li><a href="#" data-group="DP">Database Programming</a></li>
-            <li><a href="#" data-group="DCO">DCO</a></li>
+            <li><a href="#" data-group="DCO">Digital Computer Organization</a></li>
             <li><a href="#" data-group="unix">UNIX</a></li>
             
             
