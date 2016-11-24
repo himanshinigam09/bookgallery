@@ -86,7 +86,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		})();
 		</script>
 	<div class="registration_left">
-		<a href="#"><div class="reg_fb"><img src="images/facebook.png" alt=""><i>sign in using Facebook</i><div class="clear"></div></div></a>
 		 <div class="registration_form">
 		 <!-- Form -->
 			<form method="get" action="loginServlet">

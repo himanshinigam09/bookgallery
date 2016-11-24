@@ -41,8 +41,7 @@ function myFunction() {
 		<h3>register new customers</h3>
 		<p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping address, view and track your orders in your accoung and more.</p>
 		<div class="registration_left">
-		<a href="#"><div class="reg_fb"><img src="images/facebook.png" alt=""><i>register using Facebook</i><div class="clear"></div></div></a>
-		 <div class="registration_form">
+		<div class="registration_form">
 		 <!-- Form -->
 			<form method="post" action="registerServlet" onsubmit="return myFunction()">
 				<div>
